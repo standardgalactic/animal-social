@@ -1,0 +1,3869 @@
+WEBVTT
+
+00:00.000 --> 00:04.440
+You know, if I asked you right now to tell me the exact difference between a wink and a blink,
+
+00:05.120 --> 00:08.640
+you would probably think I was setting up some terrible dad joke.
+
+00:08.880 --> 00:11.160
+Right, yeah, like there's a punchline coming.
+
+00:11.480 --> 00:11.880
+Exactly.
+
+00:12.280 --> 00:17.420
+You'd probably say something along the lines of, well, I mean, I wink, but a blink just sort of,
+
+00:17.580 --> 00:19.080
+it just happens on its own.
+
+00:19.540 --> 00:26.980
+Like one is this deliberate choice you make on purpose to, you know, signal a friend across a
+
+00:26.980 --> 00:34.000
+crowded room, and the other is just a reflex, just an automatic biological function to keep
+
+00:34.000 --> 00:35.480
+your eyeball from drying out.
+
+00:35.700 --> 00:39.440
+Yeah, it seems like the most obvious, simple distinction in the world, right?
+
+00:39.480 --> 00:39.840
+Totally.
+
+00:40.200 --> 00:43.920
+But the wild thing is, and this really blew my mind when we started looking into this,
+
+00:44.880 --> 00:50.900
+determining the exact rigorous boundary between a wink and a blink, like between an action and a
+
+00:50.900 --> 00:56.780
+mere physical event, it's actually one of the most notoriously difficult unsolved problems
+
+00:56.780 --> 01:00.420
+in the entire history of science and philosophy.
+
+01:00.780 --> 01:01.460
+Oh, absolutely.
+
+01:01.820 --> 01:07.480
+And I mean, it sounds absurd until you realize the actual stakes involved.
+
+01:07.480 --> 01:14.880
+This isn't just some academic puzzle for people in tweed jackets arguing in like university lounges.
+
+01:15.340 --> 01:16.300
+Think about a courtroom.
+
+01:16.820 --> 01:21.920
+When jurors are sitting in a murder trial, they don't just look at a deceased victim and say,
+
+01:22.540 --> 01:26.560
+well, the body has ceased biological function, case closed.
+
+01:26.780 --> 01:27.140
+Right.
+
+01:27.300 --> 01:28.260
+That would be insane.
+
+01:28.380 --> 01:28.820
+Exactly.
+
+01:29.400 --> 01:34.800
+They are specifically tasked with figuring out the intent behind the physical event.
+
+01:35.200 --> 01:38.320
+Was it a premeditated first degree murder?
+
+01:38.660 --> 01:39.760
+Was it an accident?
+
+01:39.960 --> 01:40.900
+You know, manslaughter?
+
+01:41.460 --> 01:45.820
+Did the defendant pull the trigger on purpose, executing this planned action?
+
+01:46.100 --> 01:51.760
+Or did a loud noise startle them and cause an involuntary muscle spasm in their finger?
+
+01:52.220 --> 01:52.580
+Wow.
+
+01:52.580 --> 01:55.260
+Yeah, when you frame it like that, it's huge.
+
+01:55.400 --> 01:55.840
+It is.
+
+01:55.900 --> 02:02.100
+Our entire legal system, our whole framework for moral judgments, guilt, innocence,
+
+02:02.100 --> 02:10.540
+all of it rests completely on this incredibly shadowy, undefined border between voluntary action and involuntary behavior.
+
+02:10.900 --> 02:13.300
+So that is our mission for this deep dive.
+
+02:13.300 --> 02:20.940
+We are going to completely deconstruct how human beings actually act, how we emote, and how we make decisions.
+
+02:21.060 --> 02:21.240
+Yeah.
+
+02:21.360 --> 02:25.600
+And to do that, we really have to throw out centuries of completely outdated science.
+
+02:25.820 --> 02:26.380
+We do.
+
+02:26.640 --> 02:26.860
+Yeah.
+
+02:27.020 --> 02:30.460
+We are pulling from two intensely fascinating sources today.
+
+02:30.460 --> 02:42.800
+The first is Alicia Guerrero's Dynamics in Action, which just completely dismantles how philosophers and scientists have thought about cause and effect in human behavior.
+
+02:42.980 --> 02:45.160
+It really tears the whole foundation down.
+
+02:45.160 --> 03:03.980
+And the second is this cutting-edge paper, From Catharsis to Geometric Bayesianism, RSVP and Demise of the Hydraulic Model of Emotion, which, and this is crazy, uses physics and math to prove why venting your anger is actually making you worse.
+
+03:03.980 --> 03:15.100
+Yes. The overarching theme we really have to confront here is that for hundreds of years, humanity has relied on these mechanical metaphors to understand the mind.
+
+03:15.500 --> 03:15.680
+Right.
+
+03:15.960 --> 03:25.600
+We've treated the brain like a complex clockwork mechanism with gears and springs, or later on, like a pressure cooker holding back volatile fluids.
+
+03:25.680 --> 03:26.740
+The old Freudian thing.
+
+03:26.820 --> 03:27.260
+Exactly.
+
+03:27.260 --> 03:38.920
+But what the most recent breakthroughs in physics and biology are showing us is that treating the human brain and behavior like a highly sensitive, constantly shifting weather system is vastly more accurate.
+
+03:39.460 --> 03:43.640
+A weather system. I love that. I really want to hold on to that image.
+
+03:43.900 --> 03:44.080
+Yeah.
+
+03:44.180 --> 03:47.480
+But before we get to the weather, we have to start with the clockwork.
+
+03:47.620 --> 03:48.680
+Yeah, we have to go back.
+
+03:49.040 --> 03:53.960
+Way back. We need to figure out how we got it so catastrophically wrong in the first place.
+
+03:53.960 --> 03:58.940
+And that takes us back, like, 2,500 years to ancient Greece.
+
+03:59.920 --> 04:01.780
+It all begins with Aristotle.
+
+04:02.260 --> 04:03.720
+Good old Aristotle.
+
+04:04.060 --> 04:10.980
+Right. He established this fundamental rule of physics that has essentially haunted philosophy and science ever since.
+
+04:11.220 --> 04:14.740
+He stated that nothing can move or cause itself.
+
+04:15.060 --> 04:18.540
+And, I mean, you really have to put yourself in Aristotle's shoes for a second.
+
+04:18.540 --> 04:23.580
+He was trying to build a coherent framework for how change happens in the universe.
+
+04:23.960 --> 04:25.780
+Right. He's just looking around at rocks and stuff.
+
+04:25.880 --> 04:33.800
+Exactly. He was observing the natural world, the mechanics of everyday life, and he established what seemed like an airtight principle.
+
+04:34.440 --> 04:38.660
+If a stone is rolling down a hill, something had to have pushed it.
+
+04:38.760 --> 04:39.360
+Makes sense.
+
+04:39.660 --> 04:39.940
+Right.
+
+04:39.940 --> 04:44.660
+A physical object cannot spontaneously act upon itself.
+
+04:45.860 --> 04:49.920
+One part of a system has to impart force onto another part.
+
+04:50.240 --> 04:54.280
+It sounds completely logical, almost undeniable.
+
+04:54.720 --> 04:56.840
+Until you look at anything that's actually alive.
+
+04:56.960 --> 04:57.280
+Tingo.
+
+04:57.280 --> 05:09.920
+It creates this monumental, system-breaking headache the absolute second you try to apply that rule to living, breathing organisms.
+
+05:10.320 --> 05:13.720
+Because organisms clearly constantly move themselves.
+
+05:14.120 --> 05:22.400
+There is this wild medical story from the 1950s that illustrates this exact philosophical terror perfectly.
+
+05:22.580 --> 05:24.180
+Oh, I know the one you're talking about.
+
+05:24.180 --> 05:25.200
+It's so creepy.
+
+05:25.980 --> 05:29.480
+There was this pioneering neurosurgeon named Wilder Penfield.
+
+05:30.020 --> 05:34.640
+He was performing surgeries on awake patients who suffered from severe epilepsy.
+
+05:35.060 --> 05:37.760
+Awake brain surgery is always a wild concept.
+
+05:37.980 --> 05:38.200
+Yeah.
+
+05:38.480 --> 05:39.000
+Terrifying.
+
+05:39.000 --> 05:49.960
+So to find the source of the seizures, he would open their skulls, expose their brains, and use this tiny electrical probe to literally poke specific areas of the cortex.
+
+05:50.180 --> 05:50.600
+Right.
+
+05:50.840 --> 05:58.700
+He would stimulate the motor cortex, and suddenly the patient would raise their arm, or their hand would clench, or they would just blurt out a random vowel sound.
+
+05:59.340 --> 06:03.240
+But the profound part is what the patient said when he did this.
+
+06:03.240 --> 06:05.700
+They never claimed ownership of the movement.
+
+06:06.100 --> 06:06.460
+Never.
+
+06:06.940 --> 06:08.480
+They would immediately protest.
+
+06:08.700 --> 06:12.600
+They'd look at the surgeon in an absolute panic and say, I didn't do that.
+
+06:12.700 --> 06:14.040
+You pulled that out of me.
+
+06:14.420 --> 06:17.120
+Or they'd say, my arm moved, but I didn't move it.
+
+06:17.160 --> 06:18.520
+Which is deeply unsettling.
+
+06:18.640 --> 06:18.980
+Totally.
+
+06:19.420 --> 06:20.620
+Their muscles contracted.
+
+06:20.860 --> 06:22.380
+Their vocal cords vibrated.
+
+06:22.380 --> 06:28.860
+The biological mechanism worked flawlessly, but they felt absolutely zero internal agency.
+
+06:29.900 --> 06:32.420
+From the outside, it looked like an action.
+
+06:32.800 --> 06:35.640
+From the inside, it was just an event happening to them.
+
+06:35.680 --> 06:37.200
+It was a blink, not a wink.
+
+06:37.200 --> 06:42.140
+Which perfectly encapsulates Aristotle's dilemma regarding the origin of movement.
+
+06:43.060 --> 06:50.300
+If Wilder Penfield's electrical probe is what causes the arm to rise, the origin of the movement is clearly external.
+
+06:50.300 --> 06:53.120
+It is an alien force acting upon the body.
+
+06:53.840 --> 06:56.900
+Aristotle would categorize that as compulsory behavior.
+
+06:57.160 --> 06:58.360
+You are being pushed.
+
+06:59.320 --> 07:01.640
+But what happens when we act voluntarily?
+
+07:02.120 --> 07:10.980
+Aristotle actually spent a lot of time analyzing situations where the line between voluntary and compulsory gets dangerously blurry.
+
+07:11.160 --> 07:11.360
+Yeah.
+
+07:11.520 --> 07:13.560
+He had a really great thought experiment for this, right?
+
+07:13.580 --> 07:14.180
+He did.
+
+07:14.180 --> 07:20.060
+He presented this famous scenario of a ship captain caught in a massive storm.
+
+07:20.300 --> 07:25.340
+I want to paint the picture of this because it's so incredibly relatable even today.
+
+07:26.060 --> 07:30.300
+You have this merchant captain sailing a heavy ship across the agency.
+
+07:31.080 --> 07:33.680
+A sudden, violent squall hits.
+
+07:33.940 --> 07:36.000
+The waves are crashing over the deck.
+
+07:36.380 --> 07:38.540
+The ship is taking on water fast.
+
+07:38.980 --> 07:41.160
+And it's on the verge of capsizing.
+
+07:41.220 --> 07:42.000
+You're ready for a death.
+
+07:42.000 --> 07:42.560
+Exactly.
+
+07:43.040 --> 07:48.060
+So to stop the ship from sinking, the captain makes a split-second decision.
+
+07:48.420 --> 07:54.360
+He orders the crew to throw all their incredibly valuable cargo overboard into the ocean.
+
+07:54.520 --> 07:56.140
+All his wealth just gone.
+
+07:56.340 --> 07:56.680
+Right.
+
+07:57.020 --> 08:01.940
+Now the storm passes, the ship survives, and they limp back to port.
+
+08:01.940 --> 08:11.640
+If you approach that captain and ask, hey, did you throw your livelihood into the sea voluntarily, the captain would probably look at you like you were insane.
+
+08:11.880 --> 08:12.100
+Right.
+
+08:12.160 --> 08:12.920
+He'd be furious.
+
+08:13.300 --> 08:14.240
+He'd say, of course not.
+
+08:14.300 --> 08:15.960
+I didn't want to ruin myself financially.
+
+08:16.100 --> 08:17.760
+I was forced to do it by the storm.
+
+08:17.920 --> 08:22.560
+But Aristotle steps in here and examines the actual mechanics of the event.
+
+08:22.940 --> 08:24.900
+Was the captain actually forced?
+
+08:24.900 --> 08:31.700
+Did the wind physically grab the captain's hands and compel him to heave the crates over the rail?
+
+08:32.140 --> 08:32.420
+No.
+
+08:32.800 --> 08:36.780
+The origin of the physical movement was still entirely within the captain.
+
+08:37.800 --> 08:40.460
+Aristotle categorizes this as a mixed action.
+
+08:41.320 --> 08:43.080
+It is undoubtedly painful.
+
+08:43.480 --> 08:45.580
+It is done under extreme duress.
+
+08:45.900 --> 08:49.280
+And it goes completely against his long-term desires.
+
+08:49.620 --> 08:49.960
+Right.
+
+08:49.960 --> 09:01.800
+But at the exact microscopic moment the choice was made, throwing the cargo was the most rational, appropriate thing to do to achieve his immediate goal, which was survival.
+
+09:02.200 --> 09:04.740
+The principle of movement was internal.
+
+09:05.260 --> 09:07.440
+The captain perceived a deadly threat.
+
+09:07.880 --> 09:10.600
+He possessed a profound desire to stay alive.
+
+09:10.780 --> 09:14.000
+And that internal desire is what moved his physical body.
+
+09:14.520 --> 09:17.280
+But here's where Aristotle kind of traps himself.
+
+09:17.420 --> 09:17.640
+Yeah.
+
+09:17.640 --> 09:26.520
+Because of his own unbreakable rule that absolutely nothing can move itself, he had to engage in some truly staggering mental gymnastics here.
+
+09:26.640 --> 09:27.440
+He really did.
+
+09:27.520 --> 09:29.680
+He couldn't just say the captain moved himself.
+
+09:29.940 --> 09:33.640
+He basically had to conceptually slice the organism in half.
+
+09:34.060 --> 09:39.140
+He argued that the animal's soul, or its core desire, acts this unmoved mover.
+
+09:39.360 --> 09:39.660
+Yeah.
+
+09:39.800 --> 09:42.380
+The soul reaches out toward a specific goal in the environment.
+
+09:42.380 --> 09:51.120
+It's like a ghost driving a meat suit.
+
+09:51.120 --> 09:51.720
+Exactly.
+
+09:51.720 --> 09:57.920
+So, technically, in Aristotle's framework, the soul is pushing the body.
+
+09:57.920 --> 10:06.600
+It is two separate parts interacting, which magically preserves his rule that a single unified thing is not moving itself.
+
+10:06.600 --> 10:17.840
+And that artificial split between the desiring soul and the mechanical body, that is the foundational crack in our whole understanding of human behavior.
+
+10:17.840 --> 10:26.660
+Because if you flash forward a couple of thousand years to the Enlightenment and the scientific revolution, modern science enters the chat.
+
+10:26.660 --> 10:27.600
+With a vengeance.
+
+10:28.020 --> 10:28.240
+Right.
+
+10:28.440 --> 10:31.820
+Isaac Newton formulates his monumental laws of physics.
+
+10:32.620 --> 10:40.440
+Post-Newtonian philosophy looks back at Aristotle and says, hey, we agree with your fundamental rule that nothing moves itself.
+
+10:40.860 --> 10:43.380
+That aligns perfectly with our new physics.
+
+10:43.840 --> 10:48.840
+But we're absolutely throwing out this mystical idea of the soul reaching toward a goal.
+
+10:48.840 --> 10:51.920
+They completely purged the universe of purpose.
+
+10:52.140 --> 10:52.480
+They did.
+
+10:52.840 --> 10:57.480
+Aristotle originally had four different types of causes to explain why things happen.
+
+10:58.100 --> 11:07.040
+He had final cause, which was the ultimate goal or purpose of an action, and formal cause, which was the underlying structure or pattern of a thing.
+
+11:07.320 --> 11:09.600
+But Newtonian physics was ruthless.
+
+11:09.900 --> 11:10.600
+Oh, completely.
+
+11:11.220 --> 11:16.500
+It stripped everything down to just one acceptable type of causality, efficient cause.
+
+11:16.500 --> 11:20.820
+This is the ultimate billiard ball model of the universe.
+
+11:21.060 --> 11:25.380
+Reality is nothing but tiny inert atoms crashing into each other.
+
+11:25.500 --> 11:27.060
+Just dead matter bumping around.
+
+11:27.180 --> 11:27.440
+Right.
+
+11:27.940 --> 11:29.940
+A cue ball strikes an eight ball.
+
+11:30.120 --> 11:34.840
+The kinetic energy transfers in a split second, and the eight ball rolls away.
+
+11:35.700 --> 11:41.040
+The universe is just a giant, meaningless, mathematically predictable game of pool.
+
+11:41.040 --> 11:47.620
+Everything that happens is merely the result of external forces bumping into dead matter.
+
+11:47.860 --> 11:50.920
+Okay, let's stop and really look at the implications of that.
+
+11:51.060 --> 11:51.240
+Okay.
+
+11:51.400 --> 11:52.820
+Because it's actually crazy.
+
+11:53.320 --> 11:59.280
+If we are forced to view the human brain and the human body like a cue stick hitting a cue ball,
+
+11:59.720 --> 12:04.380
+how on earth do we explain the most basic realities of human existence?
+
+12:04.560 --> 12:05.860
+It gets really difficult.
+
+12:06.100 --> 12:06.320
+Right.
+
+12:06.320 --> 12:08.520
+How do we explain long-term planning?
+
+12:08.760 --> 12:12.560
+Let's say I make a decision today that I want to become a neurosurgeon.
+
+12:13.280 --> 12:18.200
+That intention has to somehow guide my daily actions for the next 15 years.
+
+12:18.800 --> 12:25.140
+I have to study, take exams, skip parties, apply to medical school, and survive residency.
+
+12:25.400 --> 12:27.260
+That's a lot of sustained action.
+
+12:27.260 --> 12:28.260
+Exactly.
+
+12:28.980 --> 12:36.260
+But a cue stick doesn't follow the ball down the felt table to continuously guide it around obstacles
+
+12:36.260 --> 12:38.800
+and gently shepherd it into the corner pocket.
+
+12:39.200 --> 12:46.200
+It just transfers its energy in one violent split second collision and immediately disconnects.
+
+12:46.460 --> 12:53.500
+The friction you are feeling right now is the exact fatal flaw of the modern theory of causality.
+
+12:53.500 --> 12:58.540
+In philosophical terms, we refer to this as the bump-and-run model.
+
+12:58.900 --> 12:59.420
+Bump-and-run.
+
+12:59.460 --> 12:59.680
+Yeah.
+
+13:00.200 --> 13:03.040
+Modern science basically built a trap for itself.
+
+13:03.720 --> 13:10.440
+By permanently banning the concept of self-cause and by completely outlawing the idea of a standing,
+
+13:10.940 --> 13:17.480
+top-down constraint, like a conscious goal that continuously oversees and guides a complex system
+
+13:17.480 --> 13:24.360
+over time, they left themselves with no vocabulary to explain how an intention actually sustains an action.
+
+13:24.720 --> 13:25.720
+They just threw it out.
+
+13:25.840 --> 13:26.640
+They had to.
+
+13:26.900 --> 13:31.320
+They were forced to imagine a human intention as nothing more than a mental cue stick.
+
+13:31.320 --> 13:37.140
+It flares up, it strikes the motor neurons, the muscles twitch, and the intention instantly disengages,
+
+13:37.620 --> 13:40.280
+leaving the body to blindly carry out the momentum.
+
+13:40.280 --> 13:47.540
+Which is obviously demonstrably false to absolutely anyone who has ever lived a human life.
+
+13:48.120 --> 13:54.180
+I mean, if I am threading a needle, my intention to thread that needle is actively managing the
+
+13:54.180 --> 13:57.420
+micro-tremors in my fingers every single millisecond.
+
+13:57.780 --> 13:59.580
+It's not a one-time push.
+
+13:59.900 --> 14:00.420
+Exactly.
+
+14:00.420 --> 14:07.580
+But instead of realizing their mechanical billiard ball model was broken, scientists and philosophers
+
+14:07.580 --> 14:11.920
+in the early 20th century decided to just double down.
+
+14:12.120 --> 14:13.660
+They really dug their heels in.
+
+14:13.800 --> 14:14.400
+They did.
+
+14:14.540 --> 14:19.540
+If the mind didn't fit the physics, they decided to just throw the mind in the garbage.
+
+14:20.000 --> 14:24.880
+And that leads us directly into the incredibly bizarre era of behaviorism.
+
+14:24.980 --> 14:25.440
+Oh man.
+
+14:25.960 --> 14:26.480
+Behaviorism?
+
+14:26.480 --> 14:32.000
+Yeah, behaviorism was really an act of desperation because researchers couldn't figure out how
+
+14:32.000 --> 14:38.320
+a mental intention, this invisible weightless ghost in the machine, could possibly push physical
+
+14:38.320 --> 14:41.820
+heavy muscles without violating the conservation of energy.
+
+14:42.440 --> 14:46.120
+They just decided that the internal mind was scientifically irrelevant.
+
+14:46.340 --> 14:46.940
+Just ignore it?
+
+14:46.980 --> 14:47.460
+Pretty much.
+
+14:47.800 --> 14:53.560
+They leaned heavily on the philosopher David Hume, specifically his concept of constant conjunction.
+
+14:53.960 --> 14:55.980
+Right, Hume was like the ultimate skeptic.
+
+14:55.980 --> 15:00.300
+He basically argued that humans can't actually see causality.
+
+15:01.040 --> 15:04.380
+We can never observe the invisible force of cause and effect.
+
+15:05.380 --> 15:10.820
+All we can actually observe is one event happening followed immediately by another event.
+
+15:10.940 --> 15:13.580
+Over and over, event A, then event B.
+
+15:14.040 --> 15:16.620
+A bell rings and a dog drools.
+
+15:17.180 --> 15:22.940
+We assume the bell caused the drool, but strictly speaking, we only see the conjunction of the two
+
+15:22.940 --> 15:23.380
+events.
+
+15:23.380 --> 15:26.160
+So the behaviorists took this and ran with it.
+
+15:26.240 --> 15:29.200
+They said, stop worrying about what the dog is thinking.
+
+15:29.400 --> 15:31.300
+Stop worrying about the ghost in the machine.
+
+15:32.040 --> 15:36.220
+Science is only about observable inputs and observable outputs.
+
+15:37.220 --> 15:38.380
+Stimulus and response.
+
+15:39.160 --> 15:42.740
+Which leads to a terrifying definition of human life if you think about it.
+
+15:42.740 --> 15:49.560
+Under strict behaviorism, human action is reduced to nothing more than uttering the correct sequence
+
+15:49.560 --> 15:55.660
+of words or executing the correct sequence of physical movements under suitable environmental
+
+15:55.660 --> 15:56.460
+circumstances.
+
+15:57.100 --> 15:57.600
+That's it.
+
+15:58.300 --> 15:59.840
+Intent is a total myth.
+
+16:00.020 --> 16:02.220
+It completely erases the inner life.
+
+16:02.560 --> 16:03.140
+It does.
+
+16:03.140 --> 16:05.800
+There was this philosopher, J.L.
+
+16:05.880 --> 16:11.020
+Austin, who really championed this with his performative theory of action.
+
+16:12.080 --> 16:18.220
+He argued that certain massive life events, like getting married, are not about your internal
+
+16:18.220 --> 16:21.540
+emotional state or your conscious intentions at all.
+
+16:21.600 --> 16:21.860
+Right.
+
+16:21.920 --> 16:27.420
+Getting married is simply the physical act of uttering a specific script of words in a specific
+
+16:27.420 --> 16:29.340
+socially recognized setting.
+
+16:29.340 --> 16:37.640
+But when you try to apply this theory to the real world, it results in absolute comical disaster.
+
+16:38.080 --> 16:42.320
+There are two incredible examples from the text that highlight this perfectly.
+
+16:42.480 --> 16:44.340
+Oh, these examples are so good.
+
+16:44.460 --> 16:45.040
+They're crazy.
+
+16:45.520 --> 16:49.860
+So the first is a scenario about a woman, let's just call her Hannah.
+
+16:50.360 --> 16:52.000
+Hannah is at a lively party.
+
+16:52.160 --> 16:55.640
+She's having a few drinks, laughing, joking around with her friends.
+
+16:55.640 --> 17:01.540
+A guy at the party, completely playing along with the joke, slides a ring onto her finger
+
+17:01.540 --> 17:06.120
+and jokingly recites an ancient traditional Jewish wedding phrase.
+
+17:06.380 --> 17:07.240
+Just goofing off.
+
+17:07.360 --> 17:07.620
+Right.
+
+17:07.920 --> 17:09.260
+Everyone in the circle is laughing.
+
+17:09.400 --> 17:10.360
+The guy knows it's a joke.
+
+17:10.480 --> 17:11.520
+Hannah knows it's a joke.
+
+17:12.240 --> 17:17.620
+But sitting quietly on the couch nearby is an actual rabbi who happens to be a strict
+
+17:17.620 --> 17:19.340
+expert in rabbinical law.
+
+17:19.420 --> 17:19.900
+Yes.
+
+17:19.900 --> 17:26.860
+The rabbi stands up, walks over, and says, excuse me, all the objective conditions for
+
+17:26.860 --> 17:28.240
+a marriage were just met.
+
+17:28.960 --> 17:34.780
+A ring of value was presented, the correct words were spoken flawlessly, and there are
+
+17:34.780 --> 17:36.260
+valid witnesses present.
+
+17:37.080 --> 17:42.660
+Regardless of your internal feelings, by the letter of the law, you two are now officially
+
+17:42.660 --> 17:44.040
+legally married.
+
+17:44.040 --> 17:49.000
+It perfectly highlights the absolute absurdity of ignoring intent.
+
+17:49.540 --> 17:52.920
+And the crazy thing is, it's not just the theoretical party trick.
+
+17:53.140 --> 17:56.540
+It happens in the real world with devastating consequences.
+
+17:56.800 --> 17:57.020
+Yes.
+
+17:57.140 --> 18:01.000
+The second example is an actual documented news story from Pakistan.
+
+18:01.820 --> 18:07.160
+A real-life husband and wife were working as actors on a television soap opera.
+
+18:07.600 --> 18:11.960
+They were on set, the cameras were rolling, and they were playing their fictional characters.
+
+18:12.180 --> 18:13.640
+They're literally doing a job.
+
+18:13.640 --> 18:14.040
+Right.
+
+18:14.280 --> 18:19.620
+During a highly dramatic scene, the script called for the husband to recite the traditional
+
+18:19.620 --> 18:23.640
+Islamic divorce declaration saying, I divorce you three times.
+
+18:24.120 --> 18:25.220
+They're acting.
+
+18:25.680 --> 18:29.220
+They're on a soundstage surrounded by boom mics and lighting raves.
+
+18:29.240 --> 18:30.500
+But the words were said.
+
+18:30.640 --> 18:31.260
+Exactly.
+
+18:32.020 --> 18:37.840
+A group of strict religious clerics watched the broadcast and issued a real-life ruling.
+
+18:38.560 --> 18:43.480
+They stated that because the specific words were articulated, the real-life
+
+18:43.480 --> 18:47.220
+marriage between the actors was immediately and officially dissolved.
+
+18:47.620 --> 18:47.840
+Yeah.
+
+18:48.500 --> 18:53.560
+The clerics even warned them that continuing to live together in their own home constituted
+
+18:53.560 --> 18:54.140
+adultery.
+
+18:54.140 --> 18:55.140
+It's horrifying.
+
+18:56.140 --> 19:02.020
+But why do those outcomes provoke such a visceral reaction of wrongness in us?
+
+19:02.160 --> 19:04.960
+Why do we immediately recoil from those rulings?
+
+19:05.080 --> 19:05.940
+Because it's insane.
+
+19:06.100 --> 19:06.580
+It is.
+
+19:06.700 --> 19:13.440
+It is because our fundamental human intuition recognizes that behaviorism is structurally bankrupt.
+
+19:13.860 --> 19:18.720
+You simply cannot reduce a human action to merely conforming to a pattern of behavior.
+
+19:18.720 --> 19:23.220
+Internal awareness and intent are not optional add-ons.
+
+19:23.360 --> 19:25.600
+They are the core architecture of an action.
+
+19:26.100 --> 19:32.020
+Aristotle, thousands of years ago, understood this way better than the 20th century behaviorists.
+
+19:32.180 --> 19:34.160
+He called it the reason of ignorance.
+
+19:34.460 --> 19:35.720
+The reason of ignorance.
+
+19:36.040 --> 19:36.300
+Okay.
+
+19:36.440 --> 19:37.060
+Unpack that.
+
+19:37.060 --> 19:42.540
+If Hannah was genuinely ignorant of the legal gravity of the ritual she was participating
+
+19:42.540 --> 19:50.040
+in, or if the Pakistani actors were operating under the explicit shared cognitive frame of
+
+19:50.040 --> 19:57.640
+a fictional performance, their internal intent drastically diverged from the external social
+
+19:57.640 --> 19:58.180
+outcome.
+
+19:58.420 --> 19:58.500
+Yeah.
+
+19:58.920 --> 20:04.800
+The behaviorist looks at the tape and says, well, the audio pattern matches the legal requirement.
+
+20:04.800 --> 20:06.440
+Therefore, the action occurred.
+
+20:06.820 --> 20:12.720
+But we know that an action without the animating force of intent is just empty physics.
+
+20:12.940 --> 20:13.060
+Okay.
+
+20:13.160 --> 20:16.700
+Let me play devil's advocate here because I really want to push this to the breaking point.
+
+20:16.780 --> 20:17.280
+Go for it.
+
+20:17.640 --> 20:24.700
+What if the behavior doesn't just match a legal script, but it physically produces a perfect
+
+20:24.700 --> 20:26.400
+outcome by total accident?
+
+20:27.420 --> 20:30.540
+Let's say I'm sitting at a desk with a photograph of a house.
+
+20:30.540 --> 20:37.340
+I take a piece of tracing paper, and with deep concentration, I intentionally trace every
+
+20:37.340 --> 20:39.120
+line until I have a perfect replica.
+
+20:39.240 --> 20:40.400
+Hey, a deliberate action.
+
+20:40.780 --> 20:41.020
+Right.
+
+20:41.240 --> 20:42.920
+Now, imagine another scenario.
+
+20:43.300 --> 20:44.500
+I am blindfolded.
+
+20:44.620 --> 20:48.800
+I have a pen in my hand, and I am having a random muscle spasm.
+
+20:49.000 --> 20:51.680
+My hand is just violently jerking around on the paper.
+
+20:52.280 --> 20:59.380
+But, against all astronomical odds, the ink happens to land in the exact shape of that identical
+
+20:59.380 --> 20:59.860
+house.
+
+20:59.860 --> 21:02.260
+A one-in-a-trillion chance.
+
+21:02.380 --> 21:02.820
+Exactly.
+
+21:03.520 --> 21:09.000
+To a pure behaviorist, who only looks at the final output, they both produced a house.
+
+21:10.020 --> 21:14.580
+Can behaviorism actually differentiate between the argus and the spasm?
+
+21:14.860 --> 21:19.500
+That is the exact thought experiment that shattered the behaviorist consensus.
+
+21:20.540 --> 21:23.840
+Philosophers like Larry Wright really grappled with this paradox.
+
+21:23.840 --> 21:31.380
+How do you objectively distinguish between purposeful action and cosmic coincidence if you absolutely
+
+21:31.380 --> 21:33.040
+refuse to look inside the mind?
+
+21:33.160 --> 21:33.360
+Right.
+
+21:33.500 --> 21:33.980
+You can't.
+
+21:34.060 --> 21:39.640
+To illustrate how impossible this is, philosophers introduced the chess-playing Martian scenario.
+
+21:39.740 --> 21:40.580
+I love this one.
+
+21:40.580 --> 21:45.440
+Imagine an alien spacecraft lands on Earth.
+
+21:45.440 --> 21:46.800
+A Martian steps out.
+
+21:47.240 --> 21:57.900
+This creature has absolutely no conceptual framework for games, no understanding of rules, no concept of human competition, and no idea what winning or losing even means.
+
+21:57.900 --> 21:59.640
+It's just a totally alien mind.
+
+21:59.980 --> 22:00.300
+Right.
+
+22:00.300 --> 22:06.000
+The Martian happens to sit down at a table across from a human chess grandmaster.
+
+22:06.380 --> 22:07.980
+The grandmaster moves a pawn.
+
+22:08.460 --> 22:16.460
+The Martian, perhaps responding to a random electromagnetic fluctuation in its environment, reaches out and moves the knight.
+
+22:16.460 --> 22:17.440
+Just a twitch.
+
+22:17.600 --> 22:18.340
+Just a twitch.
+
+22:18.660 --> 22:19.820
+The grandmaster counters.
+
+22:20.280 --> 22:27.500
+The Martian, again randomly twitching, happens to execute the exact mathematically perfect counter move.
+
+22:28.060 --> 22:34.860
+This continues for 40 moves until the Martian accidentally delivers a flawless checkmate.
+
+22:35.660 --> 22:38.840
+The question is, is the Martian playing chess?
+
+22:39.360 --> 22:39.800
+No.
+
+22:40.280 --> 22:41.040
+Of course not.
+
+22:41.340 --> 22:45.320
+It's just manipulating carved pieces of wood on a checkered board.
+
+22:45.320 --> 22:48.080
+It has no idea what a bishop is or what a king is.
+
+22:48.280 --> 22:48.760
+Precisely.
+
+22:48.960 --> 22:55.940
+And this destroys behaviorism because it highlights the monumental difference between conforming to a rule and following a rule.
+
+22:56.040 --> 22:58.000
+Ah, conforming versus following.
+
+22:58.120 --> 22:58.420
+Yes.
+
+22:59.260 --> 23:04.260
+The Martian's physical movements conform to the rules of chess by pure statistical anomaly.
+
+23:04.840 --> 23:13.440
+But to follow a rule requires a conscious entity to deliberately pattern their ongoing behavior after an internal representation of that rule.
+
+23:13.440 --> 23:15.660
+It requires a mind holding a goal.
+
+23:15.660 --> 23:25.840
+The behaviorists tried their hardest to banish the ghost in the machine, but it turns out the ghost is the only thing that makes the machine's movements meaningful.
+
+23:25.840 --> 23:30.020
+Okay, so, the behaviorist detour was a complete failure.
+
+23:31.100 --> 23:32.380
+We are forced to retreat.
+
+23:33.060 --> 23:38.800
+We have to admit that our internal invisible intentions must be the cause of our physical actions.
+
+23:38.960 --> 23:40.020
+We need the ghost.
+
+23:40.180 --> 23:40.980
+We need the ghost.
+
+23:41.080 --> 23:41.300
+Yeah.
+
+23:41.300 --> 23:51.040
+But, and this is a massive but, we are still shackled to that broken Newtonian billiard ball theory of cause and effect.
+
+23:51.160 --> 23:51.400
+Yeah.
+
+23:51.520 --> 23:56.100
+We still have to explain how the mental cue stick hits the physical cue ball.
+
+23:56.140 --> 23:58.000
+Right, the physics still don't make sense.
+
+23:58.000 --> 24:06.440
+And trying to cram human intention into Newtonian physics leads to my absolute favorite philosophical trap in this entire deep dive.
+
+24:06.960 --> 24:10.180
+It is known as the problem of the wayward causal chain.
+
+24:10.280 --> 24:11.720
+Ah, yes.
+
+24:12.040 --> 24:16.320
+Roderick Chisholm's legendary thought experiment about the nervous nephew.
+
+24:17.160 --> 24:20.860
+This is where the old model of physics finally just breaks in half.
+
+24:21.060 --> 24:22.720
+It is so darkly brilliant.
+
+24:22.940 --> 24:25.120
+Okay, let's set the stage for this one.
+
+24:25.120 --> 24:26.680
+Imagine a young man.
+
+24:27.000 --> 24:29.660
+He has an extremely wealthy elderly uncle.
+
+24:30.480 --> 24:36.240
+The nephew is greedy, he's impatient, and he decides he wants his massive inheritance right now.
+
+24:36.520 --> 24:37.740
+A classic motive.
+
+24:38.020 --> 24:38.420
+Classic.
+
+24:39.020 --> 24:45.820
+He sits in his apartment and forms a crystal clear, deeply conscious, premeditated intention.
+
+24:46.340 --> 24:50.080
+I am going to get in my car, drive to my uncle's house, and run him over.
+
+24:50.720 --> 24:52.260
+He has the motive, he has the plan.
+
+24:52.440 --> 24:54.860
+So he goes downstairs and gets behind the wheel.
+
+24:54.860 --> 24:56.480
+The intention has formed.
+
+24:57.160 --> 24:57.560
+Right.
+
+24:57.980 --> 25:05.020
+But the sheer weight of forming this dark, murderous intention completely overwhelms his nervous system.
+
+25:05.540 --> 25:07.380
+He becomes incredibly agitated.
+
+25:07.900 --> 25:09.540
+He is sweating profusely.
+
+25:09.680 --> 25:11.280
+His hands are violently shaking.
+
+25:11.740 --> 25:13.640
+His heart is hammering in his chest.
+
+25:13.660 --> 25:15.280
+He's having a full panic attack.
+
+25:15.460 --> 25:16.000
+Exactly.
+
+25:16.000 --> 25:23.860
+He is so consumed and distracted by the horror of his own plan that he completely loses control of his vehicle.
+
+25:24.640 --> 25:31.420
+The car violently swerves off the road, hops the curb, and accidentally plows into a random pedestrian walking on the sidewalk.
+
+25:31.420 --> 25:40.580
+The nephew, horrified, jumps out of the wrecked car, looks down, and realizes the pedestrian he just killed is his rich uncle.
+
+25:40.580 --> 25:42.000
+The trap is set.
+
+25:42.200 --> 25:42.320
+Yeah.
+
+25:42.400 --> 25:46.020
+So we have to ask the ultimate philosophical and legal question here.
+
+25:46.480 --> 25:48.360
+Did the nephew murder his uncle?
+
+25:48.620 --> 25:50.380
+Did he perform the action of killing?
+
+25:50.800 --> 25:59.880
+See, if you are forced to use the standard billiard ball model of causality, the horrifying answer is technically yes.
+
+26:00.080 --> 26:00.400
+Right.
+
+26:00.700 --> 26:01.700
+The math checks out.
+
+26:01.820 --> 26:02.380
+It does.
+
+26:02.500 --> 26:02.700
+Yeah.
+
+26:02.700 --> 26:04.100
+Let's trace the physics.
+
+26:05.320 --> 26:08.380
+The nephew had an internal intention to kill his uncle.
+
+26:09.600 --> 26:16.280
+That intention, the cue stick, struck his nervous system, causing a state of severe agitation, the cue ball.
+
+26:16.940 --> 26:27.260
+That agitation caused his hands to jerk the steering wheel, which caused the car to swerve, which caused the blunt force trauma that resulted in the death of the uncle.
+
+26:27.800 --> 26:29.220
+The eight ball in the corner pocket.
+
+26:29.240 --> 26:30.740
+The causal chain is unbroken.
+
+26:31.140 --> 26:31.600
+Exactly.
+
+26:31.600 --> 26:35.020
+Event A caused event B caused event C.
+
+26:35.560 --> 26:37.860
+Philosophers were terrified by this loophole.
+
+26:38.320 --> 26:45.440
+Arthur Danto, a highly influential thinker, tried to patch the hole by introducing a new requirement called semantic fit.
+
+26:45.640 --> 26:46.420
+Semantic fit?
+
+26:46.520 --> 26:46.700
+Yeah.
+
+26:46.980 --> 26:56.900
+He argued that an event only qualifies as a genuine action if the final real-world outcome matches the original semantic representation in the person's bed.
+
+26:57.420 --> 26:59.020
+He thought this would save the theory.
+
+26:59.020 --> 27:01.900
+But apply Danto's rule to the nephew.
+
+27:02.420 --> 27:05.240
+The nephew's internal representation was a dead uncle.
+
+27:05.780 --> 27:08.520
+The final outcome in the real world is a dead uncle.
+
+27:08.960 --> 27:11.140
+The semantic fit is literally perfect.
+
+27:11.540 --> 27:12.180
+Exactly.
+
+27:12.720 --> 27:24.820
+Yet every single fiber of our human intuition screams that this was a vehicular manslaughter wrapped in a cosmic irony, not a successful execution of a murder plot.
+
+27:24.820 --> 27:25.820
+Why?
+
+27:26.200 --> 27:28.280
+Because the nephew lost control.
+
+27:28.780 --> 27:29.280
+Yes.
+
+27:29.600 --> 27:34.760
+The intention started the chain reaction, but it completely disconnected midstream.
+
+27:34.920 --> 27:36.740
+The cue stick slipped off the ball.
+
+27:36.920 --> 27:38.420
+That is the crucial insight.
+
+27:38.420 --> 27:43.080
+The intention did not actively guide the behavior to its completion.
+
+27:43.400 --> 27:48.180
+It acted as a blind, momentary trigger, not an ongoing constraint.
+
+27:48.800 --> 27:51.340
+Think back to your tracing example with the house.
+
+27:51.580 --> 28:03.060
+If you want to trace the picture, your intention to trace has to continuously, actively guide the micro-movements of your hand, millimeter by millimeter, correcting for errors in real time.
+
+28:03.060 --> 28:04.960
+Right, I'm watching the line as I draw it.
+
+28:05.020 --> 28:05.500
+Exactly.
+
+28:05.940 --> 28:10.940
+It cannot just violently shove your hand across the desk and hope the ink miraculously forms a roof.
+
+28:11.180 --> 28:14.220
+The standard causal model only allows for pushing.
+
+28:14.620 --> 28:17.600
+It has absolutely no mechanism for guiding.
+
+28:18.020 --> 28:20.340
+So philosophy has essentially hit a brick wall.
+
+28:20.820 --> 28:26.780
+The ancient physics don't work, Newtonian physics don't work, and behaviorism is a joke.
+
+28:27.320 --> 28:28.840
+Where do we even go from here?
+
+28:28.840 --> 28:36.880
+The brilliant pivot here is that we have to stop talking to philosophers and physicists who study moving mass.
+
+28:37.380 --> 28:37.460
+Right.
+
+28:37.620 --> 28:40.960
+We have to cross the campus and talk to communications engineers.
+
+28:41.380 --> 28:44.080
+We have to dive into information theory.
+
+28:44.580 --> 28:47.080
+This is where the paradigm shift actually happens.
+
+28:47.240 --> 28:47.800
+It is.
+
+28:48.200 --> 28:55.080
+In the 1940s, a mathematician named Claude Shannon, working at Bell Labs, developed information theory.
+
+28:55.080 --> 28:59.020
+He wasn't trying to solve the riddle of free will.
+
+28:59.420 --> 29:08.720
+He was just trying to figure out how to transmit voice messages over long copper telephone lines without the signal turning into static.
+
+29:09.060 --> 29:16.120
+But it turns out the mathematics of signal transmission are the exact tools we need to solve the philosopher's dead end.
+
+29:16.620 --> 29:17.060
+Completely.
+
+29:17.060 --> 29:22.560
+Because information theory completely abandons the idea of objects crashing into each other.
+
+29:22.900 --> 29:24.780
+It doesn't care about force or mass.
+
+29:24.980 --> 29:30.220
+It cares entirely about tracking the flow of a signal from a source to a destination.
+
+29:30.580 --> 29:33.660
+Yeah, let's ground this math in a story because it can get abstract.
+
+29:34.240 --> 29:41.340
+There is a fantastic example formulated by the philosopher Fred Dretzky involving an office worker named Herman.
+
+29:41.880 --> 29:43.320
+Oh, I'll walk through this one.
+
+29:43.320 --> 29:46.880
+So imagine a corporate office with eight employees.
+
+29:47.760 --> 29:56.520
+The boss comes in and says, hey, one of you has to stay late on Friday to do this incredibly tedious, nasty inventory task.
+
+29:56.820 --> 29:59.820
+I don't care who, you figure it out and let me know.
+
+29:59.900 --> 30:01.520
+Standard, terrible boss.
+
+30:01.720 --> 30:02.200
+Exactly.
+
+30:02.200 --> 30:13.620
+So the eight employees sit in a conference room and they decide to make it fair by flipping coins to eliminate people until there's only one loser left.
+
+30:13.920 --> 30:15.840
+Let's do the math on this really quick.
+
+30:16.120 --> 30:17.620
+You start with eight possibilities.
+
+30:18.020 --> 30:22.160
+You flip a coin, heads or tails, and you eliminate half the room.
+
+30:22.940 --> 30:23.640
+Now you have four possibilities.
+
+30:24.300 --> 30:25.540
+At least one bit of information.
+
+30:25.800 --> 30:26.020
+Right.
+
+30:26.280 --> 30:28.960
+You flip again, eliminating half the remaining people.
+
+30:29.340 --> 30:30.580
+Now you have two possibilities.
+
+30:30.680 --> 30:31.460
+That's two bits.
+
+30:31.460 --> 30:35.420
+You flip a third time and you're left with one single loser.
+
+30:35.840 --> 30:36.680
+That's three bits.
+
+30:36.780 --> 30:42.440
+It takes exactly three bits of information to reduce eight possibilities down to a single certainty.
+
+30:43.180 --> 30:45.940
+And the loser, sadly, is Herman.
+
+30:46.380 --> 30:47.360
+Poor Herman.
+
+30:47.980 --> 30:50.740
+So we have established our starting point.
+
+30:50.880 --> 30:58.920
+We have a source, the coin flipping process in the conference room, that has successfully generated exactly three bits of information.
+
+30:58.920 --> 31:08.060
+Now, that information has to flow across the environment to reach its destination, which is the boss's desk.
+
+31:08.240 --> 31:08.600
+Right.
+
+31:08.800 --> 31:12.880
+So let's look at scenario A, which we'll call the careful messenger.
+
+31:12.880 --> 31:21.280
+The employees write Herman on a piece of paper, fold it up, and hand it to a very diligent, careful intern.
+
+31:21.800 --> 31:26.860
+The intern walks down the halls, knocks on the boss's door, and hands over the note.
+
+31:27.260 --> 31:29.600
+The bog opens it and reads Herman.
+
+31:29.600 --> 31:30.600
+Perfect transmission.
+
+31:30.600 --> 31:31.040
+Perfect transmission.
+
+31:31.320 --> 31:31.720
+Exactly.
+
+31:32.440 --> 31:40.060
+In this scenario, the three bits of information generated at the source perfectly equal the three bits of information received at the destination.
+
+31:40.740 --> 31:41.920
+The flow is unbroken.
+
+31:41.920 --> 31:46.760
+But then Dretzky introduces scenario B, which is the careless messenger.
+
+31:47.300 --> 31:49.860
+The exact same process happens in the conference room.
+
+31:50.040 --> 31:50.660
+Herman loses.
+
+31:51.180 --> 31:55.280
+They write his name on a note and hand it to a careless, easily distracted intern.
+
+31:56.060 --> 32:03.440
+As this intern is walking down the hall, he trips and the note slips out of his hand and falls directly into an active paper shredder.
+
+32:03.780 --> 32:04.700
+The note is gone.
+
+32:05.560 --> 32:06.040
+Destroyed.
+
+32:06.280 --> 32:07.620
+The intern panics.
+
+32:07.620 --> 32:13.640
+He knows there are eight employees in that department, but he has absolutely no idea who lost the coin toss.
+
+32:14.180 --> 32:16.360
+He knows he'll be fired if he doesn't deliver a name.
+
+32:17.120 --> 32:20.860
+So in a moment of desperation, he decides to just guess.
+
+32:21.500 --> 32:24.680
+He pulls out a blank piece of paper, randomly writes,
+
+32:24.980 --> 32:28.540
+Herman, walks into the boss's office, and hands it over.
+
+32:29.260 --> 32:30.600
+Now look at the end result here.
+
+32:30.940 --> 32:32.420
+The boss opens the note.
+
+32:32.800 --> 32:33.540
+It says Herman.
+
+32:33.540 --> 32:38.300
+The observable outcome in the room is identical to scenario A.
+
+32:38.820 --> 32:41.260
+The boss believes Herman is doing the inventory.
+
+32:41.980 --> 32:46.840
+But structurally, something is profoundly, deeply broken here.
+
+32:47.120 --> 32:51.880
+Because absolutely zero information actually flowed from the source to the destination.
+
+32:52.580 --> 32:56.220
+The three bits of information from the coin flip died in the shredder.
+
+32:56.860 --> 33:01.940
+The Herman that arrived on the desk was generated entirely by the intern's random panic.
+
+33:01.940 --> 33:10.480
+Information theory gives us the precise mathematical vocabulary to articulate why scenario B feels like a lie, even though the outcome is correct.
+
+33:11.140 --> 33:16.940
+In Shannon's framework, there are two primary enemies that destroy the flow of information across a channel.
+
+33:17.500 --> 33:19.820
+They are called equivocation and noise.
+
+33:20.160 --> 33:22.900
+These are critical concepts, so let's define them carefully.
+
+33:23.060 --> 33:23.300
+Sure.
+
+33:23.300 --> 33:31.760
+Equivocation is information that is successfully generated at the source, but gets lost or destroyed in transit.
+
+33:32.140 --> 33:33.940
+It never reaches the destination.
+
+33:34.180 --> 33:35.920
+It is a drop in the signal.
+
+33:36.900 --> 33:39.740
+Noise, on the other hand, is the exact opposite.
+
+33:40.520 --> 33:46.420
+Noise is rogue information that appears at the destination, but it did not originate from the source.
+
+33:46.540 --> 33:49.680
+It was introduced into the channel somewhere along the journey.
+
+33:49.680 --> 33:53.300
+I think the clearest way to visualize this is through a car radio.
+
+33:53.860 --> 33:54.940
+Oh, that's a good analogy.
+
+33:55.140 --> 33:55.240
+Yeah.
+
+33:55.320 --> 34:00.220
+Imagine you are driving and you tune into the local news station.
+
+34:00.880 --> 34:06.340
+The announcer at the station, who is the source, says, there will be rain on Sunday.
+
+34:06.900 --> 34:12.660
+But your car is driving through a tunnel and the antenna picks up a bunch of static, so you hear, there will be rain on Sunday.
+
+34:13.180 --> 34:14.360
+Snap, crackle, pop.
+
+34:14.600 --> 34:14.900
+Right.
+
+34:14.900 --> 34:17.280
+That static is pure noise.
+
+34:17.800 --> 34:21.500
+It is extra garbage information that the announcer never spoke.
+
+34:22.360 --> 34:27.060
+However, despite the noise, the core message survives.
+
+34:27.900 --> 34:30.180
+You still noted an umbrella on Sunday.
+
+34:30.900 --> 34:34.260
+The channel has noise, but it does not have equivocation.
+
+34:34.660 --> 34:36.040
+The signal pushed through.
+
+34:36.240 --> 34:38.720
+But consider a slight variation on that.
+
+34:38.720 --> 34:45.580
+What if that burst of static happens at the exact millisecond the announcer is speaking the day of the week?
+
+34:46.180 --> 34:49.980
+The radio broadcasts, there will be rain on loud static day-day.
+
+34:50.380 --> 34:52.520
+Now you have a catastrophic problem.
+
+34:52.660 --> 34:53.120
+Exactly.
+
+34:53.440 --> 34:54.080
+Is it Sunday?
+
+34:54.340 --> 34:54.900
+Is it Monday?
+
+34:55.040 --> 34:55.540
+You don't know.
+
+34:56.000 --> 35:02.600
+The static, the noise, was so perfectly placed that it obliterated the crucial difference between the two days.
+
+35:03.120 --> 35:06.800
+The information generated at the source was destroyed in transit.
+
+35:06.800 --> 35:11.220
+In this case, the noise directly caused equivocation.
+
+35:11.900 --> 35:12.980
+The signal is dead.
+
+35:13.920 --> 35:16.480
+This is the moment where all the pieces lock together.
+
+35:17.000 --> 35:24.220
+We can take this exact mathematics from telephone lines and radio antennas and apply it directly to the nervous nephew in his car.
+
+35:24.320 --> 35:25.540
+Yes, let's map it out.
+
+35:25.700 --> 35:25.960
+Okay.
+
+35:26.400 --> 35:31.500
+The nephew's conscious, murderous intention inside his brain is the source.
+
+35:31.500 --> 35:36.640
+The steering wheel and the physical trajectory of the car are the destination.
+
+35:37.760 --> 35:39.720
+The intention generates the signal.
+
+35:40.420 --> 35:42.460
+Turn the wheel 15 degrees to the right.
+
+35:42.780 --> 35:43.420
+Accelerate.
+
+35:43.900 --> 35:44.760
+Aim for the uncle.
+
+35:44.900 --> 35:46.560
+That's the clear message.
+
+35:47.060 --> 35:49.420
+The signal starts traveling down his nervous system.
+
+35:49.420 --> 35:54.460
+But suddenly, his extreme existential panic kicks in.
+
+35:55.120 --> 36:04.500
+The sweating, the violent shaking of his hands, the erratic hammering of his heart, all of that severe physiological agitation is noise.
+
+36:05.240 --> 36:10.340
+It is massive amounts of rogue kinetic energy flooding the channel.
+
+36:10.340 --> 36:14.980
+And it is a level of noise that causes total, catastrophic equivocation.
+
+36:15.800 --> 36:22.200
+The precise, guided signal of his intention turned 15 degrees right is completely drowned out by the shaking of his hands.
+
+36:22.680 --> 36:24.800
+The signal never reaches the steering wheel.
+
+36:25.320 --> 36:29.480
+The structural link between the mind and the environment is severed.
+
+36:29.980 --> 36:33.780
+The nervous shaking was the careless messenger dropping the note in the shredder.
+
+36:33.900 --> 36:34.380
+Exactly.
+
+36:34.380 --> 36:39.580
+The uncle still died at the end of the timeline, just like the boss still got a note saying Herman.
+
+36:40.800 --> 36:47.200
+But the specific information encoded in the nephew's original intention did not flow into the physical action.
+
+36:47.960 --> 36:51.800
+The physical outcome was generated purely by the random noise of his panic.
+
+36:52.660 --> 36:54.940
+It was a dark, cosmic coincidence.
+
+36:55.500 --> 36:56.100
+Precisely.
+
+36:56.340 --> 37:00.760
+And this is how information theory finally solves the problem of action.
+
+37:00.760 --> 37:15.080
+It proves mathematically that a true, voluntary action, a wink, and not just a blink, requires an unbroken, continuous flow of information from the cognitive source to the behavioral terminus.
+
+37:15.160 --> 37:16.020
+It's all about the flow.
+
+37:16.600 --> 37:22.020
+Causality in human behavior is not a billiard ball bouncing off another billiard ball.
+
+37:22.020 --> 37:31.560
+It is an ongoing, sustained signal that continuously constrains, corrects, and guides the physical body through space and time.
+
+37:31.800 --> 37:39.840
+If that signal is scrambled by noise or lost to equivocation, the resulting physical movement is divorced from your agency.
+
+37:40.560 --> 37:43.440
+It is an event, but it is not your action.
+
+37:43.660 --> 37:49.820
+So using information theory, we have completely torn down and rebuilt the mechanical model of how we act.
+
+37:49.840 --> 37:50.520
+We really have.
+
+37:50.520 --> 37:54.680
+But the implications of this shift don't stop at our physical movements.
+
+37:55.100 --> 38:04.480
+Because if our mechanical models of how we move our bodies are fundamentally broken, it turns out our mechanical models of how we process our feelings are equally disastrous.
+
+38:05.420 --> 38:14.440
+And this leads us directly into the second massive paradigm shift of this journey, moving from the physics of action into the complex world of human emotion.
+
+38:14.440 --> 38:20.420
+It is a perfect transition, because the exact same error occurred in both fields.
+
+38:21.360 --> 38:34.580
+Just as physicists and philosophers used to think of actions as billiard balls crashing into each other, psychologists and the general public have spent the last century thinking of emotions using a hydraulic model.
+
+38:34.720 --> 38:37.200
+Ah, the hydraulic model.
+
+38:37.200 --> 38:44.000
+Yeah, this is an incredibly pervasive idea that was heavily championed and popularized by Sigmund Freud.
+
+38:44.160 --> 38:45.760
+The whole pressure cooker model.
+
+38:45.840 --> 38:46.420
+Exactly.
+
+38:47.080 --> 38:56.440
+The hydraulic metaphor posits that human emotions, specifically intense negative emotions like anger, rage, or deep sadness function,
+
+38:56.440 --> 39:02.440
+like volatile fluids trapped under immense pressure inside a closed tank within your mind.
+
+39:02.600 --> 39:03.920
+Okay, I can picture that.
+
+39:03.920 --> 39:12.380
+The theory suggests that as you experience stress or frustration in your life, that internal tank slowly fills up with rage fluid.
+
+39:12.880 --> 39:15.180
+The pressure builds against the walls of your psyche.
+
+39:15.600 --> 39:20.980
+And the core tenet of this model is that if you do not actively open a valve and let it all out,
+
+39:21.280 --> 39:29.300
+the pressure will continue to build until you suffer a catastrophic psychological explosion, resulting in a breakdown or sudden violence.
+
+39:29.300 --> 39:34.220
+And this mechanism of releasing the pressure is what we call catharsis.
+
+39:34.340 --> 39:34.740
+Yes.
+
+39:35.020 --> 39:40.940
+This idea is so deeply baked into our modern culture that we don't even question it anymore.
+
+39:41.160 --> 39:43.160
+You hear the vocabulary everywhere.
+
+39:43.340 --> 39:46.200
+A friend calls you and says, I just need to vent.
+
+39:46.900 --> 39:49.580
+We tell people who are grieving, just have a good cry.
+
+39:49.720 --> 39:51.120
+You need to get it out of your system.
+
+39:51.180 --> 39:51.380
+Right.
+
+39:51.460 --> 39:52.140
+It's everywhere.
+
+39:52.140 --> 40:09.840
+There is literally an entire booming industry of smash rooms where you pay $50 to put on safety goggles and destroy televisions and plates with a baseball bat specifically to, quote, release your anger.
+
+40:10.160 --> 40:11.700
+It's a huge business.
+
+40:11.700 --> 40:18.580
+And the reason it's so popular is because it feels so intuitively true to our physical experience.
+
+40:19.240 --> 40:27.540
+When I'm absolutely furious about something, my chest feels tight, my face is flushed, my heart is racing, I actually feel like a pressure cooker about to blow a gasket.
+
+40:27.700 --> 40:29.580
+The physical symptoms are very real.
+
+40:29.720 --> 40:29.920
+Right.
+
+40:30.280 --> 40:39.940
+And my immediate overwhelming instinct is to call a sympathetic friend and just unleash a 20-minute high-volume rant.
+
+40:39.940 --> 40:42.840
+I feel like I had to drain the tank to survive.
+
+40:43.160 --> 40:49.720
+The physical sensation is very real, but the mechanical metaphor we use to explain it is completely backward.
+
+40:50.340 --> 40:53.660
+And the empirical data is devastating to Freud's theory.
+
+40:54.120 --> 40:54.860
+Wait, really?
+
+40:55.220 --> 40:55.680
+Oh, yeah.
+
+40:56.460 --> 41:06.800
+Decades of rigorous psychological and physiological studies have repeatedly demonstrated that this hydraulic model of catharsis is scientifically incoherent.
+
+41:06.800 --> 41:23.300
+When researchers take subjects, deliberately induce a state of anger, and then provide them with an outlet to vent their frustration, like giving them a punching bag and telling them to think about the person who angered them, the subjects do not get less angry.
+
+41:23.480 --> 41:24.920
+Their tank does not drain.
+
+41:25.100 --> 41:25.440
+Wow.
+
+41:25.700 --> 41:27.920
+In fact, exactly the opposite happens.
+
+41:27.920 --> 41:47.040
+Hold on.
+
+41:47.300 --> 41:50.040
+Let me make sure I am fully understanding the magnitude of this.
+
+41:50.040 --> 42:02.260
+If I am furious at my boss, and I go to the gym and savagely beat a heavy bag for 20 minutes while screaming in my head, I am not actually draining any anger.
+
+42:02.820 --> 42:08.720
+Every therapist or self-help article that told me to get it out was giving me biologically harmful advice.
+
+42:09.260 --> 42:11.200
+Mathematically and biologically, yes.
+
+42:11.600 --> 42:13.680
+You are not opening a relief valve.
+
+42:13.680 --> 42:21.640
+The paper we are analyzing introduces a complex mathematical framework to explain exactly why venting fails.
+
+42:22.120 --> 42:32.780
+It proves that indulging the intense emotion through explosive catharsis actually amplifies the persistence of that emotion through resonant feedback loops.
+
+42:32.960 --> 42:37.040
+I read an analogy for this in the material that completely rewired my brain.
+
+42:37.040 --> 42:40.500
+Venting your anger isn't like draining a tank of water.
+
+42:40.660 --> 42:46.080
+It is like trying to stop a violent whirlpool by grabbing the paddle and vigorously stirring it.
+
+42:46.180 --> 42:51.900
+That is the most accurate visualization possible, and this is the moment we introduce the RSVP model.
+
+42:51.960 --> 42:53.040
+Okay, RSVP.
+
+42:53.260 --> 42:57.080
+It stands for the Relativistic Scalar Vector Plenum.
+
+42:57.080 --> 43:03.720
+It is a dense acronym, but it represents a beautiful, elegant shift in how we view the brain.
+
+43:03.720 --> 43:09.940
+We have to permanently discard the image of the mind as a rigid metal tank holding fluid.
+
+43:10.680 --> 43:16.540
+Instead, we have to start visualizing the mind as a vast, continuous, topological landscape.
+
+43:17.020 --> 43:22.600
+A flowing, dynamic terrain defined by interacting fields of energy.
+
+43:22.860 --> 43:24.480
+Okay, let's explore this landscape.
+
+43:24.720 --> 43:31.020
+Let's unpack the RSVP model piece by piece, because once you see the mind this way, you can't unsee it.
+
+43:31.020 --> 43:37.320
+Walk me through the three foundational mathematical fields that construct this terrain of human consciousness.
+
+43:38.260 --> 43:45.780
+The RSVP model proposes that every cognitive state you experience is an emergent property of three distinct interacting fields.
+
+43:46.400 --> 43:47.860
+First, you have the scalar field.
+
+43:48.380 --> 43:53.360
+In layman's terms, think of this as your capacity, or your raw potential for action.
+
+43:54.040 --> 43:59.100
+It is the amount of metabolic and cognitive resource currently available in your brain.
+
+43:59.100 --> 44:00.840
+Okay, capacity, like a battery.
+
+44:01.340 --> 44:02.840
+Yeah, exactly like a battery.
+
+44:03.160 --> 44:05.140
+Second, you have the vector field.
+
+44:05.820 --> 44:09.440
+A vector requires direction, so think of this as flow.
+
+44:09.560 --> 44:13.980
+It represents the directional momentum of your attention, your thoughts, and your behavior.
+
+44:14.720 --> 44:18.380
+Where is your mental energy pointing, and how fast is it moving there?
+
+44:18.440 --> 44:19.360
+Flow, got it.
+
+44:19.540 --> 44:21.620
+And third, you have the entropy field.
+
+44:22.400 --> 44:28.860
+Entropy is a measure of disorder, so in this landscape, it represents chaos or local uncertainty.
+
+44:29.780 --> 44:33.520
+How unpredictable is the environment you are currently navigating?
+
+44:34.020 --> 44:37.440
+So we have a landscape built out of capacity, flow, and chaos.
+
+44:38.180 --> 44:45.780
+How do those abstract physics terms translate into the very real feeling of being sad or angry or joyful?
+
+44:46.560 --> 44:50.180
+Where do the actual emotions live in this terrain?
+
+44:50.180 --> 44:54.280
+In the RSVP model, an emotion is not an object you possess.
+
+44:54.860 --> 44:55.860
+It is not a noun.
+
+44:56.180 --> 44:58.000
+An emotion is an attractor basin.
+
+44:58.200 --> 44:59.480
+An attractor basin?
+
+44:59.480 --> 44:59.840
+Yes.
+
+45:00.080 --> 45:04.960
+It is a literal valley or depression that forms in the topological landscape of your mind.
+
+45:05.540 --> 45:10.580
+When this specific combination of capacity, flow, and chaos interacts, the terrain warps.
+
+45:11.100 --> 45:16.240
+And when your attention and cognitive energy get pulled down into one of these deep valleys by gravity,
+
+45:16.240 --> 45:18.940
+you subjectively experience an emotion.
+
+45:19.220 --> 45:20.660
+That makes so much sense.
+
+45:20.660 --> 45:29.800
+The researchers translate those three mathematical fields into three highly familiar psychological dimensions to help us map the valleys.
+
+45:30.120 --> 45:33.580
+They are arousal, valence, and dominance.
+
+45:34.060 --> 45:36.600
+Okay, I know these terms from basic psychology.
+
+45:36.860 --> 45:39.620
+Let's map them onto our new mental terrain.
+
+45:39.880 --> 45:41.660
+Let's start with arousal.
+
+45:41.660 --> 45:48.020
+In this model, arousal represents how turbulent and energetic the landscape is.
+
+45:48.200 --> 45:52.240
+It is the sheer volume of kinetic energy coursing through the system.
+
+45:53.020 --> 45:58.880
+A state of low arousal would look like a flat, calm, gently rolling plane.
+
+45:59.740 --> 46:07.140
+High arousal means the terrain is violent, incredibly steep slopes, jagged cliffs, and fast-moving currents of energy.
+
+46:07.300 --> 46:08.080
+And valence.
+
+46:08.080 --> 46:13.480
+Valence represents the direction of the flow relative to your personal internal goals.
+
+46:14.040 --> 46:18.200
+Are you being pushed toward something beneficial or dragged toward something harmful?
+
+46:18.840 --> 46:22.640
+Positive valence means the flow of the landscape aligns with what you want.
+
+46:23.080 --> 46:28.720
+Negative valence means the current is actively pushing you away from your goals or toward a threat.
+
+46:28.820 --> 46:29.880
+And what about dominance?
+
+46:30.120 --> 46:32.360
+That one always feels a bit abstract to me.
+
+46:32.360 --> 46:39.740
+Dominance tracks the state of the system as a whole, specifically, whether your sphere of influence is expanding or contracting.
+
+46:40.420 --> 46:46.920
+Do you feel like you are in control, expanding your presence, and successfully navigating the terrain?
+
+46:47.420 --> 46:52.880
+Or do you feel trapped, overwhelmed, and shrinking away from an insurmountable obstacle?
+
+46:52.880 --> 46:57.420
+So, let's take these tools and go back to the anger whirlpool.
+
+46:57.840 --> 47:02.100
+Let's say someone rear-ends my car and they jump out and start yelling at me.
+
+47:02.500 --> 47:04.580
+I am instantly furious.
+
+47:05.040 --> 47:12.520
+In the RSVP model, I have just been dragged into a very deep, very steep valley of negative valence.
+
+47:12.520 --> 47:14.380
+The situation is bad.
+
+47:15.040 --> 47:16.940
+The arousal is extremely high.
+
+47:17.040 --> 47:18.140
+My heart is pounding.
+
+47:18.620 --> 47:20.440
+The terrain is churning with energy.
+
+47:21.120 --> 47:23.840
+The old catharsis model tacks me on the shoulder and says,
+
+47:23.960 --> 47:26.920
+yell back at them, hit your steering wheel, release the pressure.
+
+47:27.260 --> 47:30.420
+When I actually do that, when I start screaming and venting,
+
+47:30.720 --> 47:33.800
+what is physically and mathematically happening to that valley?
+
+47:33.980 --> 47:40.140
+You are injecting massive amounts of kinetic energy directly into an already unstable system.
+
+47:40.140 --> 47:43.100
+In the language of dynamical systems and physics,
+
+47:43.260 --> 47:46.420
+you are inducing what is called a Hoff bifurcation.
+
+47:46.740 --> 47:48.220
+A Hoff bifurcation.
+
+47:48.740 --> 47:52.400
+Let's break that down, because it sounds like something that happens to a dying star,
+
+47:52.560 --> 47:54.020
+not a guy in a traffic jam.
+
+47:54.340 --> 47:56.340
+It's a profound concept, really.
+
+47:56.960 --> 48:00.740
+Imagine a simple pendulum swinging gently back and forth.
+
+48:00.860 --> 48:02.120
+It's a stable system.
+
+48:02.920 --> 48:07.460
+Now, imagine you start feeding extra energy into that pendulum
+
+48:07.460 --> 48:10.940
+by pushing it harder and harder at random intervals.
+
+48:11.940 --> 48:14.720
+Eventually, the system can't handle the extra energy.
+
+48:15.120 --> 48:19.380
+It undergoes a bifurcation, a sudden radical change in its behavior.
+
+48:19.860 --> 48:24.880
+The pendulum stops swinging smoothly and starts oscillating wildly,
+
+48:25.160 --> 48:27.840
+chaotically, just spinning out of control.
+
+48:28.160 --> 48:29.080
+So I'm the pendulum.
+
+48:29.380 --> 48:29.680
+Yes.
+
+48:29.680 --> 48:34.040
+When you are trapped in an anger valley, your mind is that pendulum.
+
+48:35.020 --> 48:38.620
+By choosing to vent, scream, or hit a punching bag,
+
+48:38.840 --> 48:40.180
+you aren't draining a tank.
+
+48:40.340 --> 48:43.660
+You are feeding violent kinetic energy into the attractor basin.
+
+48:44.200 --> 48:48.360
+The mathematics of the RSVP model prove that this influx of energy
+
+48:48.360 --> 48:53.240
+makes the walls of the emotional valley much steeper and the currents much faster.
+
+48:53.640 --> 48:53.840
+Wow.
+
+48:54.040 --> 48:56.880
+You are creating a resonant feedback loop.
+
+48:56.880 --> 48:59.440
+You are literally digging the hole deeper,
+
+48:59.660 --> 49:04.760
+trapping yourself in that aggressive state for a significantly longer period of time.
+
+49:05.220 --> 49:06.960
+This is genuinely terrifying.
+
+49:07.880 --> 49:10.120
+Because the release I feel when I yell.
+
+49:10.280 --> 49:10.500
+Yeah.
+
+49:10.980 --> 49:13.180
+It feels so good for about three seconds.
+
+49:13.380 --> 49:17.160
+Are you saying that feeling of relief is just a biological lie?
+
+49:17.460 --> 49:21.120
+It is a severe misinterpretation of your own data.
+
+49:21.560 --> 49:23.960
+What feels like a release when you scream at someone
+
+49:23.960 --> 49:28.360
+is usually just a very transient, fleeting shift in the dominance field.
+
+49:28.820 --> 49:31.100
+For one split second, by yelling louder,
+
+49:31.480 --> 49:34.760
+you feel like you are expanding, taking control of the environment,
+
+49:34.920 --> 49:36.060
+pushing the threat away.
+
+49:36.240 --> 49:36.400
+Right.
+
+49:36.460 --> 49:38.980
+But the arousal field remains violently high,
+
+49:39.140 --> 49:41.680
+and the valence field is still deeply negative.
+
+49:42.000 --> 49:43.740
+You haven't escaped the whirlpool.
+
+49:43.900 --> 49:47.780
+You've just convinced yourself that stirring it faster is a form of control.
+
+49:47.780 --> 49:51.480
+As soon as you stop yelling, the walls of the valley are still there,
+
+49:51.600 --> 49:52.980
+and they are steeper than before.
+
+49:53.640 --> 49:54.160
+Okay.
+
+49:55.060 --> 49:58.360
+You have thoroughly destroyed my coping mechanisms.
+
+49:59.040 --> 50:02.040
+But this raises a massive practical problem for me.
+
+50:02.520 --> 50:06.400
+If I am trapped at the bottom of a steep valley of a terrible emotion,
+
+50:06.540 --> 50:07.560
+say I am furious,
+
+50:08.060 --> 50:10.840
+or I am spiraling into a deep, dark depression,
+
+50:10.840 --> 50:13.880
+and I know that I shouldn't vent or thrash around
+
+50:13.880 --> 50:16.720
+because it will only induce a half bifurcation
+
+50:16.720 --> 50:18.180
+and make the valley deeper,
+
+50:19.280 --> 50:20.860
+how on earth do I get out?
+
+50:21.180 --> 50:22.660
+That's the million dollar question.
+
+50:22.660 --> 50:26.660
+Do I just have to sit perfectly still at the bottom of the pit
+
+50:26.660 --> 50:29.960
+and try to claw my way up the steep walls
+
+50:29.960 --> 50:32.820
+using sheer exhausting willpower?
+
+50:32.960 --> 50:33.120
+Yeah.
+
+50:33.740 --> 50:37.760
+Because fighting the current of a deep depression sounds impossible.
+
+50:37.760 --> 50:39.640
+It is functionally impossible,
+
+50:40.080 --> 50:43.620
+and more importantly, it is biologically unsustainable.
+
+50:44.200 --> 50:48.420
+This brings us to the second half of the paper's mathematical framework,
+
+50:49.180 --> 50:50.320
+GBSH,
+
+50:51.040 --> 50:54.320
+Geometric Bayesianism with Sparse Heuristics.
+
+50:54.600 --> 50:57.040
+I am going to need a serious translation on that one.
+
+50:57.180 --> 50:58.380
+I know it sounds intimidating,
+
+50:58.680 --> 51:01.500
+but it is actually a deeply pragmatic description
+
+51:01.500 --> 51:03.040
+of how your brain survives.
+
+51:03.440 --> 51:06.420
+The biological reality is that your brain operates
+
+51:06.420 --> 51:10.240
+under a brutally strict, unforgiving energy budget.
+
+51:10.240 --> 51:14.400
+It runs on ATP, a specific metabolic currency.
+
+51:15.180 --> 51:19.280
+Your brain accounts for roughly 20% of your daily caloric burn
+
+51:19.280 --> 51:20.740
+just to keep the lights on.
+
+51:20.940 --> 51:22.100
+That's a huge energy draw.
+
+51:22.500 --> 51:23.020
+It is.
+
+51:23.600 --> 51:25.780
+Traditional computer models of the mind
+
+51:25.780 --> 51:29.100
+assume the brain acted like a silicon supercomputer,
+
+51:29.740 --> 51:33.100
+exhaustively analyzing every single variable in a room
+
+51:33.100 --> 51:34.440
+before making a decision.
+
+51:35.600 --> 51:39.640
+But if your biological brain actually tried to brute force calculate
+
+51:39.640 --> 51:42.360
+every possible mathematical escape route
+
+51:42.360 --> 51:43.900
+out of an emotional valley,
+
+51:44.400 --> 51:48.120
+the sheer computing power required would fry your neural circuits.
+
+51:48.600 --> 51:52.080
+You would literally starve to death trying to process a bad mood.
+
+51:52.420 --> 51:52.980
+Right.
+
+51:53.080 --> 51:56.480
+I can't run a deep blue chest simulation every time I feel sand.
+
+51:56.580 --> 51:58.260
+I simply don't have the calories for it.
+
+51:58.260 --> 51:58.980
+Precisely.
+
+51:59.480 --> 52:01.740
+Because of this strict energy constraint,
+
+52:02.240 --> 52:05.120
+the brain relies heavily on sparse heuristics.
+
+52:05.980 --> 52:08.380
+A heuristic is simply a cognitive shortcut.
+
+52:09.220 --> 52:12.140
+The brain does not explore the entire topological landscape.
+
+52:12.520 --> 52:15.660
+It frantically searches for the path of least resistance.
+
+52:16.080 --> 52:19.080
+It uses sparse, incomplete data
+
+52:19.080 --> 52:21.640
+to make a good enough guess to save energy.
+
+52:22.140 --> 52:23.860
+Okay, so it cuts corners to survive.
+
+52:23.860 --> 52:24.500
+Yes.
+
+52:25.020 --> 52:28.700
+And the RSVP model reveals that there is a specific
+
+52:28.700 --> 52:30.920
+mathematically elegant solution
+
+52:30.920 --> 52:33.940
+for escaping a deep emotional valley.
+
+52:34.300 --> 52:37.460
+A method that utilizes these sparse heuristics
+
+52:37.460 --> 52:40.220
+to get you out without burning all your precious
+
+52:40.220 --> 52:42.100
+mental energy fighting the current.
+
+52:42.440 --> 52:45.640
+The solution is the process of reframing.
+
+52:45.760 --> 52:46.900
+Reframing the landscape.
+
+52:47.100 --> 52:47.420
+Yes.
+
+52:48.000 --> 52:49.920
+The key insight is that emotions
+
+52:49.920 --> 52:53.180
+and the valleys they form are highly relativistic.
+
+52:53.180 --> 52:56.020
+They do not exist in an objective vacuum.
+
+52:56.540 --> 52:59.900
+They depend entirely on your internal reference frames,
+
+53:00.240 --> 53:03.640
+the baseline expectations you brought into the environment.
+
+53:04.140 --> 53:05.960
+I think the paper had a great example for this.
+
+53:05.980 --> 53:06.360
+It did.
+
+53:06.640 --> 53:08.940
+The paper provides a perfectly simple example
+
+53:08.940 --> 53:10.320
+to illustrate this relativity.
+
+53:10.880 --> 53:12.280
+A heavy rainstorm.
+
+53:12.700 --> 53:13.640
+If I ask you,
+
+53:14.000 --> 53:17.760
+is a rainy day an inherently sad, negative event?
+
+53:17.900 --> 53:20.680
+Well, I mean, it depends entirely on my context.
+
+53:20.680 --> 53:24.040
+If I spent three weeks planning a massive beach party
+
+53:24.040 --> 53:26.160
+and I bought volleyballs and sunscreen
+
+53:26.160 --> 53:28.700
+and I wake up to a torrential downpour,
+
+53:28.960 --> 53:31.520
+then yes, a rainy day is a tragedy.
+
+53:31.900 --> 53:33.920
+It is a deep valley of negative valence.
+
+53:34.380 --> 53:35.060
+Exactly.
+
+53:35.440 --> 53:38.180
+But what if we change the observer?
+
+53:38.180 --> 53:40.600
+What if you are a local farmer
+
+53:40.600 --> 53:44.020
+who has been staring at a dying field for three months,
+
+53:44.180 --> 53:47.160
+utterly terrified that a historic drought
+
+53:47.160 --> 53:49.120
+is going to bankrupt your family
+
+53:49.120 --> 53:50.760
+and destroy your livelihood?
+
+53:51.460 --> 53:53.320
+You wake up, look out the window,
+
+53:53.480 --> 53:56.400
+and see that exact same torrential downpour.
+
+53:56.480 --> 53:59.340
+Then that rain is a literal miracle.
+
+53:59.560 --> 53:59.760
+Yeah.
+
+53:59.840 --> 54:01.300
+And crying tears of joy
+
+54:01.300 --> 54:04.260
+is a massive peak of positive valence.
+
+54:04.400 --> 54:06.560
+Pay close attention to the mechanics there.
+
+54:06.560 --> 54:08.940
+The objective meteorological stimulus,
+
+54:09.220 --> 54:10.860
+the water falling from the sky,
+
+54:11.100 --> 54:14.000
+is mathematically identical in both scenarios.
+
+54:14.800 --> 54:17.480
+The kinetic energy of the rain didn't change at all.
+
+54:17.960 --> 54:19.740
+The only variable that shifted
+
+54:19.740 --> 54:23.280
+was the internal baseline expectation of the observer.
+
+54:23.800 --> 54:25.360
+The reference frame changed.
+
+54:25.760 --> 54:25.900
+Right.
+
+54:26.320 --> 54:28.720
+So applying this to the anger whirlpool,
+
+54:29.220 --> 54:31.020
+if you are trapped at the bottom,
+
+54:31.140 --> 54:33.060
+your instinct is to fight the water
+
+54:33.060 --> 54:35.240
+or to vent and inject energy.
+
+54:35.240 --> 54:37.340
+The RSVP model says,
+
+54:37.760 --> 54:38.920
+stop fighting the water.
+
+54:39.360 --> 54:40.920
+Don't touch the arousal field.
+
+54:41.500 --> 54:44.580
+Instead, step back and examine the reference frame
+
+54:44.580 --> 54:46.520
+that created the valley in the first place.
+
+54:46.600 --> 54:47.560
+You don't fight the river.
+
+54:47.740 --> 54:49.900
+You change the shape of the riverbed itself.
+
+54:50.180 --> 54:51.220
+That is the secret.
+
+54:51.900 --> 54:54.400
+By consciously shifting your reference frame,
+
+54:54.680 --> 54:56.240
+you alter the valence field.
+
+54:56.700 --> 54:59.840
+You literally change the mathematical slope
+
+54:59.840 --> 55:01.120
+of the emotional valley
+
+55:01.120 --> 55:03.900
+without having to increase the arousal
+
+55:03.900 --> 55:06.680
+or add dangerous turbulence to the system.
+
+55:06.860 --> 55:07.680
+You tilt the board.
+
+55:07.960 --> 55:10.580
+You tilt the entire topological landscape
+
+55:10.580 --> 55:13.000
+so that the gravity that was trapping you
+
+55:13.000 --> 55:14.440
+suddenly pulls you out.
+
+55:14.900 --> 55:17.620
+You let the altered geometry of your mind
+
+55:17.620 --> 55:18.860
+do the heavy lifting
+
+55:18.860 --> 55:21.800
+rather than swimming against a raging current.
+
+55:22.060 --> 55:23.700
+I am realizing right now
+
+55:23.700 --> 55:26.340
+that this is the exact mathematical proof
+
+55:26.340 --> 55:29.100
+for why cognitive behavioral therapy is so effective.
+
+55:29.100 --> 55:30.140
+It is.
+
+55:30.680 --> 55:33.340
+CBT is entirely built around this concept.
+
+55:34.320 --> 55:36.620
+A therapist doesn't tell you to scream into a pillow
+
+55:36.620 --> 55:38.680
+about how much you hate your boss.
+
+55:38.860 --> 55:40.940
+That would be a huffed bifurcation.
+
+55:42.040 --> 55:43.580
+Instead, the therapist says,
+
+55:43.680 --> 55:45.480
+let's examine the automatic thought
+
+55:45.480 --> 55:46.640
+that put you in this valley.
+
+55:47.260 --> 55:48.960
+You believe your boss hates you
+
+55:48.960 --> 55:50.240
+because he didn't say good morning.
+
+55:50.700 --> 55:51.880
+Let's reframe.
+
+55:52.200 --> 55:53.380
+What is the evidence?
+
+55:53.640 --> 55:55.500
+Is it possible his child is sick
+
+55:55.500 --> 55:56.500
+and he was distracted?
+
+55:56.500 --> 55:59.300
+And the moment you genuinely accept
+
+55:59.300 --> 56:00.760
+that alternative perspective,
+
+56:01.240 --> 56:02.280
+the anger vanishes.
+
+56:02.600 --> 56:05.200
+You didn't burn any calories fighting the rage.
+
+56:05.380 --> 56:07.000
+You just tilted the board,
+
+56:07.180 --> 56:08.480
+the valley flattened out,
+
+56:08.560 --> 56:10.600
+and the anger ceased to exist.
+
+56:10.760 --> 56:11.080
+Yes.
+
+56:11.240 --> 56:13.440
+And the authors of the RSVP paper
+
+56:13.440 --> 56:15.380
+specifically highlight this.
+
+56:15.860 --> 56:17.700
+Effective therapies like CBT
+
+56:17.700 --> 56:19.980
+are not just nice psychological tricks.
+
+56:20.180 --> 56:22.180
+They are actively mathematically
+
+56:22.180 --> 56:24.500
+altering the copology of the mind.
+
+56:24.500 --> 56:27.400
+They are leveraging sparse heuristics
+
+56:27.400 --> 56:29.800
+to reshape the attractor basins.
+
+56:30.320 --> 56:31.180
+That is incredible.
+
+56:31.280 --> 56:32.640
+And the implications of this
+
+56:32.640 --> 56:35.340
+extend far beyond a therapist's couch.
+
+56:35.880 --> 56:38.620
+This model is currently revolutionizing
+
+56:38.620 --> 56:40.920
+how we approach artificial intelligence.
+
+56:41.200 --> 56:43.920
+If we want to build AGI artificial systems
+
+56:43.920 --> 56:47.220
+that truly think and adapt like biological brains,
+
+56:47.440 --> 56:48.980
+we cannot program them
+
+56:48.980 --> 56:51.080
+as brute force calculating machines.
+
+56:51.080 --> 56:54.020
+We need to design them with strict energy budgets,
+
+56:54.200 --> 56:56.020
+forcing them to use sparse heuristics
+
+56:56.020 --> 56:58.860
+and navigate dynamic relativistic landscapes.
+
+56:59.260 --> 57:00.900
+And think about the implications
+
+57:00.900 --> 57:02.400
+for childhood education.
+
+57:03.380 --> 57:05.080
+I mean, imagine if we taught
+
+57:05.080 --> 57:07.640
+this topological model to fifth graders
+
+57:07.640 --> 57:10.700
+instead of the outdated pressure cooker model.
+
+57:11.440 --> 57:13.900
+We spend so much time teaching kids
+
+57:13.900 --> 57:15.340
+to manage their explosions.
+
+57:15.340 --> 57:17.300
+What if we taught them
+
+57:17.300 --> 57:20.340
+that emotions are just temporary valleys
+
+57:20.340 --> 57:22.520
+based on reference frames?
+
+57:22.940 --> 57:24.100
+It would be revolutionary.
+
+57:24.600 --> 57:25.540
+We could teach them
+
+57:25.540 --> 57:26.960
+that when they feel trapped,
+
+57:27.340 --> 57:29.280
+they don't have to explode or suppress.
+
+57:29.980 --> 57:31.140
+They can pause,
+
+57:31.680 --> 57:33.260
+examine the slope of the valley,
+
+57:33.500 --> 57:35.520
+and actively compare perspectives
+
+57:35.520 --> 57:36.900
+to flatten the terrain
+
+57:36.900 --> 57:39.160
+before the spiral even starts.
+
+57:39.480 --> 57:41.220
+It would be a superpower.
+
+57:41.440 --> 57:43.680
+It would completely change human development.
+
+57:43.680 --> 57:45.560
+But if you think that is profound,
+
+57:45.800 --> 57:48.040
+we need to take one final step.
+
+57:48.240 --> 57:48.840
+Oh, there's more.
+
+57:49.080 --> 57:51.580
+Yes, because the authors of this paper
+
+57:51.580 --> 57:54.520
+take this topographical model of the mind,
+
+57:54.720 --> 57:56.360
+the idea of a landscape shifting
+
+57:56.360 --> 57:57.700
+and valleys collapsing,
+
+57:58.040 --> 57:59.740
+and they extend it to explain
+
+57:59.740 --> 58:01.240
+something truly astonishing.
+
+58:02.080 --> 58:05.100
+They argued that this exact same dynamic geometry
+
+58:05.100 --> 58:08.180
+is responsible for the evolution of human language
+
+58:08.180 --> 58:11.160
+and the very invention of formal logic.
+
+58:11.380 --> 58:11.980
+Okay, stop.
+
+58:11.980 --> 58:13.960
+You are telling me
+
+58:13.960 --> 58:15.720
+that the mathematical process
+
+58:15.720 --> 58:17.720
+that causes a feedback loop
+
+58:17.720 --> 58:19.020
+in my road rage
+
+58:19.020 --> 58:22.300
+is the exact same underlying mechanism
+
+58:22.300 --> 58:24.220
+that led human beings
+
+58:24.220 --> 58:27.720
+to invent true-false algebra centuries later.
+
+58:28.500 --> 58:30.320
+That sounds like science fiction.
+
+58:30.880 --> 58:32.520
+It sounds impossible
+
+58:32.520 --> 58:34.260
+until you look at the topology.
+
+58:34.440 --> 58:36.680
+It is all the same dynamic geometry
+
+58:36.680 --> 58:38.860
+operating on a longer timescale.
+
+58:38.860 --> 58:40.760
+To understand this,
+
+58:40.840 --> 58:41.840
+we have to look back
+
+58:41.840 --> 58:43.820
+at the origins of human language.
+
+58:44.180 --> 58:44.320
+Right.
+
+58:44.600 --> 58:46.800
+If you study many ancient, early,
+
+58:47.000 --> 58:48.980
+and indigenous languages around the world,
+
+58:49.180 --> 58:51.020
+you find that they utilized
+
+58:51.020 --> 58:52.520
+incredibly complex,
+
+58:52.740 --> 58:55.020
+highly nuanced classifier systems.
+
+58:55.260 --> 58:57.440
+What exactly is a classifier system
+
+58:57.440 --> 58:58.520
+in linguistics?
+
+58:58.740 --> 59:00.940
+It is a method of categorizing the world.
+
+59:01.280 --> 59:03.040
+In modern English, we are very lazy.
+
+59:03.200 --> 59:04.600
+We just call an object it.
+
+59:04.600 --> 59:06.280
+But in these early languages,
+
+59:06.460 --> 59:07.540
+you couldn't just say it.
+
+59:07.740 --> 59:09.620
+You had to categorize every noun
+
+59:09.620 --> 59:11.300
+based on its physical properties
+
+59:11.300 --> 59:13.280
+or its relationship to humans.
+
+59:13.680 --> 59:16.100
+You might have a specific grammatical category
+
+59:16.100 --> 59:18.260
+for objects that are long and rigid,
+
+59:18.540 --> 59:19.160
+like sticks.
+
+59:19.600 --> 59:21.160
+Another category for objects
+
+59:21.160 --> 59:22.400
+that are flat and flexible,
+
+59:22.600 --> 59:23.220
+like leaves.
+
+59:23.880 --> 59:25.480
+Another for things that are animate.
+
+59:25.940 --> 59:27.340
+Another for things that are fluid.
+
+59:27.700 --> 59:29.000
+Another for things that are edible.
+
+59:29.000 --> 59:32.320
+A single language might have dozens and dozens
+
+59:32.320 --> 59:35.440
+of these distinct, highly specific categories.
+
+59:36.040 --> 59:38.860
+Now, visualize that linguistic mind
+
+59:38.860 --> 59:40.780
+using our RSVP model.
+
+59:41.520 --> 59:44.740
+The cognitive landscape of early humans
+
+59:44.740 --> 59:46.580
+was incredibly textured.
+
+59:47.160 --> 59:48.520
+It looked like a golf ball
+
+59:48.520 --> 59:51.440
+covered in hundreds of tiny, distinct dimples.
+
+59:52.200 --> 59:54.460
+Dozens of shallow attractor basins,
+
+59:54.640 --> 59:56.160
+each representing a specific,
+
+59:56.680 --> 59:58.700
+nuanced way of interacting with the world.
+
+59:58.700 --> 01:00:00.040
+Okay, I can picture that.
+
+01:00:00.540 --> 01:00:03.300
+A very bumpy, highly complex terrain
+
+01:00:03.300 --> 01:00:05.000
+with lots of little valleys.
+
+01:00:05.500 --> 01:00:07.280
+But landscapes do not remain static.
+
+01:00:07.760 --> 01:00:09.080
+Over thousands of years,
+
+01:00:09.300 --> 01:00:11.500
+cultures experience intense evolutionary,
+
+01:00:11.940 --> 01:00:14.000
+social, and communicative pressures.
+
+01:00:14.920 --> 01:00:16.880
+Specifically, the paper points
+
+01:00:16.880 --> 01:00:18.500
+to the overwhelming influence
+
+01:00:18.500 --> 01:00:20.260
+of massive cultural narratives.
+
+01:00:20.940 --> 01:00:22.280
+The prime example they use
+
+01:00:22.280 --> 01:00:24.260
+is the spread of Abrahamic religions
+
+01:00:24.260 --> 01:00:26.160
+and their foundational stories.
+
+01:00:26.580 --> 01:00:27.860
+All right, think about the book of Genesis.
+
+01:00:27.860 --> 01:00:30.960
+It is entirely built on rigid dualities.
+
+01:00:31.800 --> 01:00:33.660
+God separates the light from the dark.
+
+01:00:33.780 --> 01:00:35.480
+He separates the earth from the waters.
+
+01:00:35.960 --> 01:00:39.160
+The creation of humanity is explicitly binary.
+
+01:00:39.500 --> 01:00:41.400
+Male and female, he created them.
+
+01:00:41.880 --> 01:00:43.760
+And then you have the story of Noah's Ark,
+
+01:00:43.920 --> 01:00:46.500
+which acts as a massive categorization event.
+
+01:00:47.000 --> 01:00:48.320
+The animals are saved,
+
+01:00:48.540 --> 01:00:49.800
+but they must enter the Ark
+
+01:00:49.800 --> 01:00:52.020
+strictly two by two, male and female.
+
+01:00:52.020 --> 01:00:52.660
+Exactly.
+
+01:00:52.880 --> 01:00:55.400
+These profound, culturally dominant narratives
+
+01:00:55.400 --> 01:00:57.980
+act like massive gravitational forces
+
+01:00:57.980 --> 01:00:59.760
+pulling on the cognitive landscape
+
+01:00:59.760 --> 01:01:01.660
+of the populations that adopt them.
+
+01:01:01.880 --> 01:01:04.720
+They exert an immense topological pressure.
+
+01:01:05.120 --> 01:01:05.180
+Wow.
+
+01:01:05.580 --> 01:01:06.840
+Under the heavy gravity
+
+01:01:06.840 --> 01:01:08.360
+of these dualistic stories,
+
+01:01:08.820 --> 01:01:11.060
+the complex, dimpled landscape
+
+01:01:11.060 --> 01:01:12.800
+begins to compress and warp.
+
+01:01:13.220 --> 01:01:15.960
+The system undergoes a phase transition.
+
+01:01:15.960 --> 01:01:18.680
+All of those dozens of nuanced,
+
+01:01:18.900 --> 01:01:20.960
+complex little classifier valleys
+
+01:01:20.960 --> 01:01:23.260
+are subjected to immense pressure
+
+01:01:23.260 --> 01:01:25.000
+until they begin to merge together.
+
+01:01:25.640 --> 01:01:27.880
+Over centuries, the landscape simplifies,
+
+01:01:28.260 --> 01:01:29.780
+reducing those multiple basins
+
+01:01:29.780 --> 01:01:33.120
+into a strict, incredibly deep binary structure.
+
+01:01:33.120 --> 01:01:36.120
+So the landscape transitions from a golf ball
+
+01:01:36.120 --> 01:01:37.460
+covered in little dimples
+
+01:01:37.460 --> 01:01:40.100
+into a massive, steep bowl
+
+01:01:40.100 --> 01:01:42.520
+with just two giant valleys at the bottom.
+
+01:01:43.240 --> 01:01:44.120
+Male and female.
+
+01:01:45.140 --> 01:01:45.920
+Light and dark.
+
+01:01:46.300 --> 01:01:46.900
+Good and evil.
+
+01:01:47.160 --> 01:01:47.780
+True and false.
+
+01:01:47.900 --> 01:01:48.200
+Yes.
+
+01:01:48.760 --> 01:01:50.900
+The cultural gravity forces a collapse
+
+01:01:50.900 --> 01:01:52.900
+into binary attractor basins.
+
+01:01:53.360 --> 01:01:55.600
+And here's the ultimate revelation of the paper.
+
+01:01:56.160 --> 01:01:57.520
+This gradual collapse
+
+01:01:57.520 --> 01:01:59.860
+of nuanced linguistic classifiers
+
+01:01:59.860 --> 01:02:02.360
+into strict, binary schemas
+
+01:02:02.360 --> 01:02:04.580
+laid the exact structural
+
+01:02:04.580 --> 01:02:06.340
+and biological groundwork
+
+01:02:06.340 --> 01:02:07.820
+for Boolean logic.
+
+01:02:08.080 --> 01:02:08.900
+George Boole,
+
+01:02:09.220 --> 01:02:09.820
+the mathematician
+
+01:02:09.820 --> 01:02:11.640
+who invented Boolean algebra
+
+01:02:11.640 --> 01:02:12.940
+in the 19th century.
+
+01:02:13.720 --> 01:02:15.400
+The system of ones and zeros,
+
+01:02:15.660 --> 01:02:16.320
+true and false,
+
+01:02:16.520 --> 01:02:17.820
+that literally makes
+
+01:02:17.820 --> 01:02:19.400
+every computer microchip
+
+01:02:19.400 --> 01:02:20.500
+on the planet function.
+
+01:02:21.020 --> 01:02:21.360
+Yes.
+
+01:02:21.640 --> 01:02:22.800
+The paper argues
+
+01:02:22.800 --> 01:02:23.820
+that when George Boole
+
+01:02:23.820 --> 01:02:25.540
+formalized Boolean algebra,
+
+01:02:25.760 --> 01:02:26.800
+he wasn't discovering
+
+01:02:26.800 --> 01:02:28.140
+some platonic truth
+
+01:02:28.140 --> 01:02:29.060
+floating in the ether.
+
+01:02:29.420 --> 01:02:31.220
+He was simply abstracting
+
+01:02:31.220 --> 01:02:32.240
+and formalizing
+
+01:02:32.240 --> 01:02:34.240
+a binary topological structure
+
+01:02:34.240 --> 01:02:35.180
+that had already been
+
+01:02:35.180 --> 01:02:37.100
+brutally, culturally carved
+
+01:02:37.100 --> 01:02:38.780
+into the human cognitive landscape
+
+01:02:38.780 --> 01:02:40.580
+over thousands of years
+
+01:02:40.580 --> 01:02:41.660
+of narrative pressure.
+
+01:02:42.480 --> 01:02:43.840
+Boole just wrote out the math
+
+01:02:43.840 --> 01:02:44.940
+for the Two Valley Bowl.
+
+01:02:44.940 --> 01:02:47.220
+That is absolutely staggering.
+
+01:02:47.220 --> 01:02:48.020
+I need a second
+
+01:02:48.020 --> 01:02:49.660
+to process the scale of that.
+
+01:02:50.180 --> 01:02:51.140
+You are saying
+
+01:02:51.140 --> 01:02:53.180
+that the way we categorize
+
+01:02:53.180 --> 01:02:54.180
+the world around us,
+
+01:02:54.260 --> 01:02:55.760
+the way we build our computers,
+
+01:02:55.960 --> 01:02:57.340
+the way we fundamentally
+
+01:02:57.340 --> 01:02:59.020
+process logic itself,
+
+01:02:59.800 --> 01:03:01.700
+it is all downstream
+
+01:03:01.700 --> 01:03:03.700
+of this dynamic
+
+01:03:03.700 --> 01:03:05.540
+topological folding
+
+01:03:05.540 --> 01:03:07.060
+of our mental landscape.
+
+01:03:07.860 --> 01:03:08.960
+Our computers run
+
+01:03:08.960 --> 01:03:10.040
+on ones and zeros
+
+01:03:10.040 --> 01:03:11.840
+because thousands of years ago,
+
+01:03:12.360 --> 01:03:13.460
+a story about an arc
+
+01:03:13.460 --> 01:03:14.620
+tilted the gravity
+
+01:03:14.620 --> 01:03:15.480
+of our minds.
+
+01:03:15.480 --> 01:03:17.260
+It is the closest thing
+
+01:03:17.260 --> 01:03:18.380
+I have ever seen
+
+01:03:18.380 --> 01:03:20.060
+to a unified theory
+
+01:03:20.060 --> 01:03:20.820
+of the mind.
+
+01:03:21.240 --> 01:03:22.820
+From the microscopic way
+
+01:03:22.820 --> 01:03:23.980
+a conscious intention
+
+01:03:23.980 --> 01:03:25.340
+flows like a signal
+
+01:03:25.340 --> 01:03:26.280
+to move a muscle
+
+01:03:26.280 --> 01:03:27.000
+in your arm,
+
+01:03:27.160 --> 01:03:28.540
+to the way a burst
+
+01:03:28.540 --> 01:03:29.840
+of anger spirals
+
+01:03:29.840 --> 01:03:30.820
+into a mathematical
+
+01:03:30.820 --> 01:03:31.940
+feedback loop,
+
+01:03:32.100 --> 01:03:33.520
+all the way up to the way
+
+01:03:33.520 --> 01:03:34.860
+an entire civilization
+
+01:03:34.860 --> 01:03:36.360
+invents binary logic.
+
+01:03:36.960 --> 01:03:37.720
+It is not about
+
+01:03:37.720 --> 01:03:38.840
+clockwork gears.
+
+01:03:38.980 --> 01:03:39.800
+It is not about
+
+01:03:39.800 --> 01:03:40.640
+pressure cookers.
+
+01:03:40.820 --> 01:03:42.440
+It is entirely about
+
+01:03:42.440 --> 01:03:43.720
+dynamic fields,
+
+01:03:43.960 --> 01:03:45.000
+the flow of information,
+
+01:03:45.460 --> 01:03:46.480
+and the shifting constraints
+
+01:03:46.480 --> 01:03:47.160
+of the landscape
+
+01:03:47.160 --> 01:03:47.780
+we inhabit.
+
+01:03:48.280 --> 01:03:49.440
+We've covered so much
+
+01:03:49.440 --> 01:03:49.980
+ground today,
+
+01:03:50.040 --> 01:03:50.660
+I think we need to
+
+01:03:50.660 --> 01:03:51.240
+take a breath
+
+01:03:51.240 --> 01:03:51.780
+and summarize
+
+01:03:51.780 --> 01:03:52.980
+the sheer magnitude
+
+01:03:52.980 --> 01:03:54.120
+of the paradigm shift
+
+01:03:54.120 --> 01:03:55.120
+we've just walked through.
+
+01:03:55.660 --> 01:03:56.900
+We started this hour
+
+01:03:56.900 --> 01:03:58.100
+by asking a seemingly
+
+01:03:58.100 --> 01:03:59.220
+innocent question.
+
+01:04:00.020 --> 01:04:00.880
+What is the difference
+
+01:04:00.880 --> 01:04:02.260
+between a wink and a blink?
+
+01:04:02.480 --> 01:04:03.680
+And look where it took us.
+
+01:04:03.980 --> 01:04:04.280
+Right.
+
+01:04:04.640 --> 01:04:05.660
+And what we discovered
+
+01:04:05.660 --> 01:04:06.680
+is that to answer
+
+01:04:06.680 --> 01:04:07.360
+that question,
+
+01:04:07.720 --> 01:04:08.720
+we had to discard
+
+01:04:08.720 --> 01:04:09.680
+almost everything
+
+01:04:09.680 --> 01:04:11.060
+we intuitively thought
+
+01:04:11.060 --> 01:04:12.380
+we knew about causality.
+
+01:04:13.040 --> 01:04:14.480
+We are not static,
+
+01:04:15.080 --> 01:04:16.000
+inert objects
+
+01:04:16.000 --> 01:04:16.980
+waiting to be pushed.
+
+01:04:17.380 --> 01:04:18.740
+We're not cue balls
+
+01:04:18.740 --> 01:04:20.020
+sitting on a felt table
+
+01:04:20.020 --> 01:04:20.980
+waiting to be struck
+
+01:04:20.980 --> 01:04:21.640
+by the cue stick
+
+01:04:21.640 --> 01:04:22.440
+of our intentions.
+
+01:04:23.120 --> 01:04:24.320
+And our minds
+
+01:04:24.320 --> 01:04:25.280
+are absolutely,
+
+01:04:25.760 --> 01:04:26.540
+unequivocally
+
+01:04:26.540 --> 01:04:28.280
+not pressure cookers
+
+01:04:28.280 --> 01:04:29.300
+holding back
+
+01:04:29.300 --> 01:04:30.300
+volatile fluids
+
+01:04:30.300 --> 01:04:31.460
+waiting to explode
+
+01:04:31.460 --> 01:04:32.280
+if we don't
+
+01:04:32.280 --> 01:04:33.380
+scream into a pillow.
+
+01:04:33.580 --> 01:04:34.940
+We are deeply embedded,
+
+01:04:35.260 --> 01:04:36.300
+profoundly sensitive,
+
+01:04:36.580 --> 01:04:37.460
+self-organizing,
+
+01:04:37.460 --> 01:04:38.820
+dynamic landscapes.
+
+01:04:39.460 --> 01:04:40.540
+Our physical actions
+
+01:04:40.540 --> 01:04:41.320
+are the result
+
+01:04:41.320 --> 01:04:42.480
+of an uninterrupted,
+
+01:04:42.580 --> 01:04:43.660
+continuous flow
+
+01:04:43.660 --> 01:04:44.420
+of information
+
+01:04:44.420 --> 01:04:45.780
+shaping and constraining
+
+01:04:45.780 --> 01:04:46.340
+our movements
+
+01:04:46.340 --> 01:04:47.080
+through space.
+
+01:04:47.740 --> 01:04:48.520
+Our emotions
+
+01:04:48.520 --> 01:04:50.020
+are not objects we hold.
+
+01:04:50.540 --> 01:04:52.020
+They are temporary valleys
+
+01:04:52.020 --> 01:04:53.320
+forming in a continuous
+
+01:04:53.320 --> 01:04:54.340
+flowing field
+
+01:04:54.340 --> 01:04:55.140
+of capacity,
+
+01:04:55.400 --> 01:04:55.760
+momentum,
+
+01:04:55.980 --> 01:04:56.540
+and chaos.
+
+01:04:57.180 --> 01:04:58.200
+We do not just
+
+01:04:58.200 --> 01:04:59.580
+blindly react to the world
+
+01:04:59.580 --> 01:05:00.380
+like a thermostat.
+
+01:05:00.620 --> 01:05:01.880
+We navigate a topology
+
+01:05:01.880 --> 01:05:02.920
+that is constantly
+
+01:05:02.920 --> 01:05:04.060
+shifting and warping
+
+01:05:04.060 --> 01:05:04.740
+based on our
+
+01:05:04.740 --> 01:05:05.980
+metabolic energy budgets
+
+01:05:05.980 --> 01:05:07.020
+and the reference frames
+
+01:05:07.020 --> 01:05:08.020
+we choose to adopt.
+
+01:05:08.360 --> 01:05:08.980
+And that leads me
+
+01:05:08.980 --> 01:05:09.760
+to a final,
+
+01:05:09.960 --> 01:05:10.800
+somewhat provocative
+
+01:05:10.800 --> 01:05:11.620
+thought that I'll
+
+01:05:11.620 --> 01:05:12.420
+leave you with
+
+01:05:12.420 --> 01:05:13.780
+as we wrap this up.
+
+01:05:14.700 --> 01:05:15.860
+We've spent all this time
+
+01:05:15.860 --> 01:05:16.600
+talking about how
+
+01:05:16.600 --> 01:05:17.820
+the landscape shapes
+
+01:05:17.820 --> 01:05:18.440
+our actions
+
+01:05:18.440 --> 01:05:19.320
+and our feelings.
+
+01:05:19.980 --> 01:05:20.920
+But think about
+
+01:05:20.920 --> 01:05:21.780
+the implications
+
+01:05:21.780 --> 01:05:22.760
+of that geometry.
+
+01:05:23.180 --> 01:05:23.900
+It's big.
+
+01:05:24.300 --> 01:05:25.180
+If everything
+
+01:05:25.180 --> 01:05:26.160
+we've talked about
+
+01:05:26.160 --> 01:05:27.180
+today is true,
+
+01:05:27.500 --> 01:05:28.600
+if our emotions,
+
+01:05:28.920 --> 01:05:30.000
+our physical actions,
+
+01:05:30.160 --> 01:05:31.260
+and even the very
+
+01:05:31.260 --> 01:05:32.640
+structure of our logic
+
+01:05:32.640 --> 01:05:34.140
+are constantly
+
+01:05:34.140 --> 01:05:35.220
+being molded
+
+01:05:35.220 --> 01:05:35.820
+and shaped
+
+01:05:35.820 --> 01:05:36.680
+by the landscape
+
+01:05:36.680 --> 01:05:37.600
+of our environment
+
+01:05:37.600 --> 01:05:39.040
+and the social
+
+01:05:39.040 --> 01:05:40.040
+reference frames
+
+01:05:40.040 --> 01:05:40.880
+we inhabit,
+
+01:05:41.560 --> 01:05:42.660
+then where does
+
+01:05:42.660 --> 01:05:43.720
+your environment end
+
+01:05:43.720 --> 01:05:44.280
+and where do you
+
+01:05:44.280 --> 01:05:45.180
+actually begin?
+
+01:05:45.920 --> 01:05:46.980
+If the shape
+
+01:05:46.980 --> 01:05:47.920
+of the riverbed
+
+01:05:47.920 --> 01:05:48.860
+you are flowing through
+
+01:05:48.860 --> 01:05:49.680
+is dictated
+
+01:05:49.680 --> 01:05:50.520
+by the culture,
+
+01:05:50.800 --> 01:05:51.280
+the history,
+
+01:05:51.380 --> 01:05:51.880
+and the narratives
+
+01:05:51.880 --> 01:05:52.600
+around you,
+
+01:05:53.000 --> 01:05:53.840
+fighting the current
+
+01:05:53.840 --> 01:05:54.620
+might be a waste
+
+01:05:54.620 --> 01:05:55.160
+of energy.
+
+01:05:56.200 --> 01:05:57.300
+Perhaps the ultimate,
+
+01:05:57.600 --> 01:05:59.060
+truest act of free will
+
+01:05:59.060 --> 01:06:00.460
+isn't swimming harder
+
+01:06:00.460 --> 01:06:01.300
+against the water.
+
+01:06:02.060 --> 01:06:03.080
+Perhaps the ultimate
+
+01:06:03.080 --> 01:06:03.960
+act of free will
+
+01:06:03.960 --> 01:06:05.220
+is realizing you
+
+01:06:05.220 --> 01:06:05.840
+have the power
+
+01:06:05.840 --> 01:06:06.980
+to choose which river
+
+01:06:06.980 --> 01:06:07.680
+you swim in.
+

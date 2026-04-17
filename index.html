@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSVP Lava Terminal</title>
+
+<style>
+body{
+margin:0;
+background:#000;
+color:#7cff7c;
+font-family:monospace;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+
+/* CRT frame */
+
+.screen{
+position:relative;
+padding:20px;
+border:2px solid #0f0;
+background:#001000;
+box-shadow:
+0 0 10px #0f0,
+inset 0 0 40px rgba(0,255,0,0.12);
+}
+
+/* scanlines */
+.screen::after{
+content:"";
+position:absolute;
+inset:0;
+pointer-events:none;
+background:repeating-linear-gradient(
+to bottom,
+rgba(0,255,0,0.04) 0px,
+rgba(0,255,0,0.04) 1px,
+transparent 2px,
+transparent 4px
+);
+}
+
+/* canvas */
+
+canvas{
+width:420px;
+height:420px;
+border-radius:50%;
+background:#000;
+margin-bottom:15px;
+box-shadow:
+0 0 40px rgba(0,255,120,0.2) inset;
+}
+
+/* controls */
+
+.controls{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+button, select{
+background:#001400;
+border:1px solid #00ff00;
+color:#7cff7c;
+padding:8px 12px;
+cursor:pointer;
+font-family:monospace;
+}
+
+/* subtitles */
+
+.subs{
+margin-top:12px;
+max-width:600px;
+min-height:2em;
+opacity:.85;
+text-align:center;
+}
+
+/* footer */
+
+.footer{
+margin-top:10px;
+font-size:.85em;
+opacity:.7;
+}
+.footer a{
+color:#7cff7c;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="screen">
+
+<canvas id="viz"></canvas>
+
+<div class="controls">
+<button id="play">Play</button>
+<button id="subsBtn">Subs On</button>
+<button id="toggleList">Tracks</button>
+<select id="trackSelect" style="display:none"></select>
+</div>
+
+<div id="subs" class="subs"></div>
+
+<div class="footer">
+<a href="https://standardgalactic.github.io/workspace/return_under_constraint.pdf" target="_blank">
+return_under_constraint.pdf
+</a>
+</div>
+
+</div>
+
+<audio id="audio">
+<source id="src">
+<track id="trackEl" kind="subtitles">
+</audio>
+
+<script>
+
+/* ===== TRACKS ===== */
+
+const tracks = [
+"O_colapso_dos_caminhos_da_informação.mp3",
+"Why_stored_information_becomes_unreachable.mp3",
+"Why_saved_data_remains_unreachable.mp3",
+"Your_Mind_as_a_Dynamic_Landscape.mp3"
+]
+
+/* ===== URL SELECTION ===== */
+
+const params = new URLSearchParams(location.search)
+const requested = params.get("track")
+
+let index = 0
+
+if(requested){
+if(!isNaN(requested)){
+const n = parseInt(requested,10)
+if(n>=1 && n<=tracks.length) index = n-1
+}else{
+const i = tracks.indexOf(requested)
+if(i !== -1) index = i
+}
+}
+
+/* ===== ELEMENTS ===== */
+
+const audio = document.getElementById("audio")
+const src = document.getElementById("src")
+const trackEl = document.getElementById("trackEl")
+const play = document.getElementById("play")
+const subsBtn = document.getElementById("subsBtn")
+const select = document.getElementById("trackSelect")
+const toggleList = document.getElementById("toggleList")
+const subs = document.getElementById("subs")
+
+let subsOn = true
+
+/* ===== POPULATE ===== */
+
+tracks.forEach((t,i)=>{
+const opt = document.createElement("option")
+opt.value = t
+opt.textContent = `[${i+1}] ` + t.replace(".mp3","").replace(/_/g," ")
+select.appendChild(opt)
+})
+
+/* ===== LOAD ===== */
+
+function load(i, auto=false){
+
+index = (i+tracks.length)%tracks.length
+const file = tracks[index]
+
+src.src = file
+trackEl.src = file.replace(".mp3",".vtt")
+
+select.value = file
+
+history.replaceState(null,"","?track="+(index+1))
+
+audio.load()
+
+audio.onloadedmetadata = ()=>{
+const t = audio.textTracks[0]
+if(t){
+t.mode="hidden"
+t.oncuechange = ()=>{
+if(!subsOn){ subs.textContent=""; return }
+const cue = t.activeCues[0]
+subs.textContent = cue ? cue.text : ""
+}
+}
+if(auto){
+audio.play()
+play.textContent="Pause"
+}
+}
+}
+
+load(index)
+
+/* ===== CONTROLS ===== */
+
+play.onclick = ()=>{
+initAudio()
+if(audio.paused){
+audio.play()
+play.textContent="Pause"
+}else{
+audio.pause()
+play.textContent="Play"
+}
+}
+
+subsBtn.onclick = ()=>{
+subsOn = !subsOn
+subsBtn.textContent = subsOn ? "Subs On":"Subs Off"
+if(!subsOn) subs.textContent=""
+}
+
+toggleList.onclick = ()=>{
+select.style.display = select.style.display==="none"?"block":"none"
+}
+
+select.onchange = ()=> load(select.selectedIndex,true)
+
+audio.onended = ()=> load(index+1,true)
+
+/* ===== KEYBOARD ===== */
+
+window.addEventListener("keydown",e=>{
+if(e.code==="Space"){ e.preventDefault(); play.click() }
+if(e.key==="ArrowRight") load(index+1,true)
+if(e.key==="ArrowLeft") load(index-1,true)
+if(e.key.toLowerCase()==="s") subsBtn.click()
+const n=parseInt(e.key)
+if(n>=1 && n<=tracks.length) load(n-1,true)
+})
+
+/* ===== AUDIO ANALYSIS ===== */
+
+let ctx, analyser, buf
+let energy=0, smoothEnergy=0
+
+function initAudio(){
+if(ctx) return
+ctx = new (window.AudioContext||window.webkitAudioContext)()
+analyser = ctx.createAnalyser()
+analyser.fftSize = 512
+const srcNode = ctx.createMediaElementSource(audio)
+srcNode.connect(analyser)
+analyser.connect(ctx.destination)
+buf = new Uint8Array(analyser.fftSize)
+}
+
+function updateEnergy(){
+if(analyser){
+analyser.getByteTimeDomainData(buf)
+let e=0
+for(let i=0;i<buf.length;i++){
+let d=buf[i]-128
+e+=d*d
+}
+e/=buf.length
+energy=Math.min(e/4000,1)
+smoothEnergy += (energy - smoothEnergy)*0.05
+}
+}
+
+/* ===== CANVAS ===== */
+
+const canvas = document.getElementById("viz")
+const c = canvas.getContext("2d")
+
+const size = 140
+canvas.width = size
+canvas.height = size
+
+/* ===== BLOBS ===== */
+
+const blobs = Array.from({length:7},()=>({
+x:Math.random()*size,
+y:Math.random()*size,
+vx:0,
+vy:0,
+baseR:18+Math.random()*18,
+r:0
+}))
+
+let globalPhase = 0
+
+/* ===== FLOW FIELD ===== */
+
+function flowField(x,y){
+
+const cx=size*0.5
+const cy=size*0.5
+
+const dx=(x-cx)/size
+const dy=(y-cy)/size
+
+const updraft = Math.exp(-dx*dx*8)*0.03
+const downdraft = -Math.exp(-Math.abs(dx)*3)*0.015
+
+const vy = updraft + downdraft
+
+const swirl =
+Math.sin(y*0.04 + globalPhase)*0.02 +
+Math.sin(x*0.03 - globalPhase)*0.015
+
+const angle = Math.atan2(y-cy,x-cx)
+const radial = Math.sqrt(dx*dx+dy*dy)
+
+const vortex = 0.01*Math.sin(globalPhase)
+
+const vx2 = -Math.sin(angle)*vortex*(1-radial)
+const vy2 =  Math.cos(angle)*vortex*(1-radial)
+
+return { vx: swirl + vx2, vy: vy + vy2 }
+}
+
+/* ===== DRAW ===== */
+
+function draw(){
+
+updateEnergy()
+globalPhase += 0.0003
+
+c.clearRect(0,0,size,size)
+
+/* metaball field */
+
+const img = c.createImageData(size,size)
+
+for(let x=0;x<size;x++){
+for(let y=0;y<size;y++){
+
+let sum=0
+
+for(const b of blobs){
+let dx=x-b.x
+let dy=y-b.y
+sum += b.r*b.r/(dx*dx+dy*dy+1)
+}
+
+let i=(y*size+x)*4
+
+if(sum>1){
+let t=Math.min(sum/3,1)
+img.data[i]   = 180*t + 70*smoothEnergy
+img.data[i+1] = 255
+img.data[i+2] = 40*(1-t)
+img.data[i+3] = 255
+}else{
+img.data[i+3]=0
+}
+}
+}
+
+c.putImageData(img,0,0)
+
+/* motion */
+
+for(const b of blobs){
+
+const f = flowField(b.x,b.y)
+
+const temp = 1 - (b.y/size)
+const phase = temp*0.7 + smoothEnergy*0.5
+
+b.r = b.baseR*(0.7+phase)
+
+b.vx += f.vx*(1+smoothEnergy)
+b.vy += f.vy*(1+smoothEnergy)
+
+b.vx *= 0.96
+b.vy *= 0.96
+
+const turb=0.0015*(0.3+smoothEnergy)
+b.vx += (Math.random()-0.5)*turb
+b.vy += (Math.random()-0.5)*turb
+
+b.x += b.vx
+b.y += b.vy
+
+if(b.x<0) b.x+=size
+if(b.x>size) b.x-=size
+
+if(b.y<0){ b.y=0; b.vy=Math.abs(b.vy)*0.5 }
+if(b.y>size){ b.y=size; b.vy=-Math.abs(b.vy)*0.5 }
+
+}
+
+requestAnimationFrame(draw)
+}
+
+draw()
+
+</script>
+
+</body>
+</html>
