@@ -1,21 +1,21 @@
 Incompleteness, Null Signals, and the Cosmological
 Plenum
 Flyxion
-August 18, 2025
+April 17, 2026
 Abstract
 This paper explores incompleteness as a unifying principle across logic, computation, cog-
-nition, thermodynamics, and cosmology. Beginning with G¨odel's incompleteness theorems and
+nition, thermodynamics, and cosmology. Beginning with Gödel's incompleteness theorems and
 Turing's Halting Problem, it examines how formal systems are inherently limited by their in-
 ability to encompass their embedding supersets. Karl Fant's null convention logic (NCL) opera-
 tionalizes this in hardware, using null states to signal incompletion, with parallels in everyday
 life such as learner's permits, amber traffic lights, and scriptural suspensions (e.g., Matthew
-26:29). Monica Anderson's critiques of Good Old-Fashioned Artificial Intelligence (GOFAI) high-
+26:29). Michael Anderson's critiques of Good Old-Fashioned Artificial Intelligence (GOFAI) high-
 light similar limitations in symbolic systems, advocating for sub-symbolic adaptability. Func-
 tional programming's monadic deferral of side-effects mirrors Ilya Prigogine's dissipative struc-
 tures, which export entropy to maintain order, akin to economic externalization in systems like
 Uber. The Relativistic Scalar-Vector-Potential (RSVP) model reframes cosmic expansion as an
 entropic "falling outward," constrained by Cosmic Microwave Background (CMB) dipole obser-
-vations to disfavor multiverse scenarios with varying Friedmann-Robertson-Walker-Lemaˆıtre
+vations to disfavor multiverse scenarios with varying Friedmann-Robertson-Walker-Lemaître
 (FRW) parameters. Humor, as a meta-level displacement, further illustrates how systems sig-
 nal their own boundaries. The Law of Superset Entropy unifies these domains: order requires
 exporting incompleteness to a superset or internalizing it via structural reorganization. The
@@ -23,51 +23,51 @@ cosmos, like logic and computation, is a plenum of null signals, perpetually inc
 herent within a greater whole.
 1
 Introduction
-The concept of incompleteness, first formalized by Kurt G¨odel, reveals a profound limitation: any
+The concept of incompleteness, first formalized by Kurt Gödel, reveals a profound limitation: any
 formal system sufficiently expressive to encode arithmetic contains true propositions that can-
-not be proven within its axioms [G¨odel, 1931]. This structural feature of categoricity—defining a
+not be proven within its axioms [Gödel, 1931]. This structural feature of categoricity—defining a
 domain excludes its embedding metalevel—extends beyond mathematics to computation, cogni-
 tion, thermodynamics, and cosmology. This paper traces incompleteness across these domains,
-linking G¨odel's logical insights, Alan Turing's computational undecidability, Karl Fant's null con-
-vention logic (NCL), Monica Anderson's critiques of Good Old-Fashioned Artificial Intelligence
+linking Gödel's logical insights, Alan Turing's computational undecidability, Karl Fant's null con-
+vention logic (NCL), Michael Anderson's critiques of Good Old-Fashioned Artificial Intelligence
 (GOFAI), functional programming's monadic structures, Ilya Prigogine's dissipative structures,
 and the Relativistic Scalar-Vector-Potential (RSVP) cosmological model.
 The paper is structured to build progressively from foundational logic to cosmic scales, em-
-phasizing the interplay of incompleteness and order. Section 2 delves into G¨odelian incomplete-
+phasizing the interplay of incompleteness and order. Section 2 delves into Gödelian incomplete-
 ness and Turing's Halting Problem, establishing self-reference as a universal limit. Section 3
 introduces NCL, detailing its mechanics and everyday analogues to illustrate embodied incom-
 pleteness. Section 4 explores humor as a meta-level displacement, reflecting systemic bound-
-aries through fourth-wall breaks and paradoxical twists. Section 5 examines functional program-
-ming's deferral of side-effects and Prigogine's thermodynamic principles, introducing the Law of
-Superset Entropy. Section 6 details RSVP's fields, dynamics, and "falling outward" analogy, incor-
-porating historical and inflationary context. Section 7 analyzes CMB dipole constraints, arguing
-against multiverse variability. Section 8 synthesizes these under the Law of Superset Entropy,
-with philosophical reflections. Appendices provide technical details on RSVP's CMB constraints
-and "falling outward" mechanism.
+aries through fourth-wall breaks and paradoxical twists. Section 5 examines functional pro-
+gramming's deferral of side-effects and Prigogine's thermodynamic principles, introducing the
+Law of Superset Entropy. Section 6 details RSVP's fields, dynamics, and "falling outward" anal-
+ogy, incorporating historical and inflationary context. Section 7 analyzes CMB dipole constraints,
+arguing against multiverse variability. Section 8 synthesizes these under the Law of Superset
+Entropy, with philosophical reflections. Appendices provide technical details on RSVP's CMB
+constraints and "falling outward" mechanism.
 This interdisciplinary approach reveals incompleteness as an architectural necessity, with
 null signals and entropy export ensuring continuity across domains, as exemplified by the scrip-
 tural metaphor of Matthew 26:29, where a deferred act signals a greater fulfillment.
 1
 
 2
-G¨odel, Turing, and the Limits of Formal Systems
-G¨odel's incompleteness theorems (1931) established that any consistent formal system capable
+Gödel, Turing, and the Limits of Formal Systems
+Gödel's incompleteness theorems (1931) established that any consistent formal system capable
 of expressing basic arithmetic contains propositions that cannot be proved or disproved within
-the system [G¨odel, 1931]. The first theorem shows there exist true but unprovable statements;
+the system [Gödel, 1931]. The first theorem shows there exist true but unprovable statements;
 the second shows the system cannot prove its own consistency. These arise from self-reference:
-G¨odel constructs a sentence that asserts "I am unprovable," encoded via arithmetization, which
+Gödel constructs a sentence that asserts "I am unprovable," encoded via arithmetization, which
 is true if and only if unprovable, creating a paradox akin to the liar sentence [Nagel and Newman,
 1958]. Tarski's semantics further demonstrate that truth requires a meta-language, reinforcing
 systemic blindness to supersets [Tarski, 1956].
 Alan Turing's Halting Problem (1936) provides a computational analogue [Turing, 1936]. No
 general algorithm can decide whether an arbitrary Turing machine halts on a given input. This
-mirrors G¨odel's incompleteness: just as new axioms resolve some undecidables but introduce
+mirrors Gödel's incompleteness: just as new axioms resolve some undecidables but introduce
 others, specialized halting checks resolve specific cases but leave an infinite frontier of undecid-
 ability [Davis, 1958, Sipser, 2012]. Both reveal that formal systems, whether logical or computa-
 tional, are inherently incomplete when reflecting on their own structure. For example, the set of
 all sets in naive set theory leads to Russell's paradox, resolved only by restricting comprehension
 in Zermelo-Fraenkel set theory, yet new undecidables (e.g., the Continuum Hypothesis) persist
-[G¨odel, 1931].
+[Gödel, 1931].
 This pluralism implies that no single system exhausts truth. Systems are locally coherent but
 globally incomplete, requiring mechanisms to signal boundaries, setting the stage for computa-
 tional and physical analogues.
@@ -76,7 +76,7 @@ Null Convention Logic as Embodied Incompleteness
 Karl Fant's null convention logic (NCL) operationalizes incompleteness in hardware by intro-
 ducing a null state to signal incompletion, enabling delay-insensitive circuits [Fant, 2005]. Un-
 like synchronous logic, which relies on an external clock [Seitz, 1980], NCL embeds coordination
-within the system, mirroring G¨odel's self-referential limits.
+within the system, mirroring Gödel's self-referential limits.
 3.1
 Prerequisites: Synchronous vs. Asynchronous Logic
 Synchronous circuits use a global clock to assume input validity at specific ticks, but propagation
@@ -102,13 +102,13 @@ fulfillment.
 2
 
 These analogues highlight null as a meta-signal of incompleteness, preventing premature action,
-akin to G¨odel's unprovable statements.
+akin to Gödel's unprovable statements.
 3.4
 GOFAI Critiques
-Monica Anderson's critiques of Good Old-Fashioned Artificial Intelligence (GOFAI) align with NCL
-[Anderson, 2006]. GOFAI's rule-based systems export semantic burden to programmers, ren-
-dering them brittle. Sub-symbolic approaches, like neural networks, internalize coordination,
-mirroring NCL's self-synchronizing null states [Clark, 2013, Hohwy, 2013].
+Michael Anderson's critiques of Good Old-Fashioned Artificial Intelligence (GOFAI) align with
+NCL [Anderson, 2014]. GOFAI's rule-based systems export semantic burden to programmers,
+rendering them brittle. Sub-symbolic approaches, like neural networks, internalize coordina-
+tion, mirroring NCL's self-synchronizing null states [Clark, 2013, Hohwy, 2013].
 4
 Humor as Meta-Level Displacement
 Humor often arises from thwarting expectations via shifts in abstraction levels, reflecting sys-
@@ -118,7 +118,7 @@ pected closure of addition [Ciupa, 2015]. Similarly, in "find x," a student circ
 "x" on the page instead of solving for it jumps to a literal interpretation, exposing the problem's
 implicit meta-level assumptions.
 Fourth-wall breaks in theater, where actors address the audience, collapse the diegetic bound-
-ary, revealing the play's embedding in a larger context. These examples parallel G¨odel's self-
+ary, revealing the play's embedding in a larger context. These examples parallel Gödel's self-
 referential sentences and Turing's undecidable machines, where systems expose their limits by
 referencing their own structure. Humor thus acts as a null signal, signaling the boundary where
 a system's closure fails, inviting a meta-perspective.
@@ -139,17 +139,17 @@ through reorganization.
 RSVP and the Cosmological Extension
 The Relativistic Scalar-Vector-Potential (RSVP) model reinterprets cosmic redshift as entropic
 relaxation, "falling outward," rather than metric expansion [Whittle, 2015]. Its fields include:
-• Scalar ϕ(x, η): Drives entropic smoothing, akin to NCL's null state.
+• Scalar φ(x, η): Drives entropic smoothing, akin to NCL's null state.
 • Vector u(x, η): Represents bulk flows.
 • Entropy S(x, η): Quantifies disorder.
 The entropic redshift potential is:
-Υ = δϕ −β(η)φm,
-φm(k, η) = 4πGa2(η)¯ρm(η)
+Υ = δφ −β(η)ϕm,
+ϕm(k, η) = 4πGa2(η)¯ρm(η)
 k2
 Tm(k, η)δm(k, η).
 The effective potential is:
 aeff = −∇Φeff,
-Φeff = ϕ −γ(η)φm.
+Φeff = φ −γ(η)ϕm.
 In matter-dominated regions, energy E ∼−GMm
 r
 favors collapse; in void-dominated regions,
@@ -158,7 +158,7 @@ M ∝r3, making E ∼−r2, driving outward relaxation [Whittle, 2015].
 
 6.1
 Inflationary Extension
-In the early universe, a high-density ϕ triggers a "lamphron-lamphrodyne flash," rapidly smooth-
+In the early universe, a high-density φ triggers a "lamphron-lamphrodyne flash," rapidly smooth-
 ing entropic gradients, akin to inflation [Whittle, 2015]. This establishes causal uniformity, link-
 ing to late-time void expansion [de Sitter, 1917].
 7
@@ -170,9 +170,9 @@ aligns with reconstructions, bounding the intrinsic dipole to εint ≲few × 10
 geneity extends beyond the observable, disfavoring bubble universes [Dodelson, 2003].
 8
 Synthesis
-Incompleteness is an architectural necessity. G¨odel's theorems, Turing's undecidability, NCL's
+Incompleteness is an architectural necessity. Gödel's theorems, Turing's undecidability, NCL's
 null signals, humor's meta-shifts, functional programming's monads, Prigogine's entropy export,
-and RSVP's ϕ-driven relaxation all reflect the Law of Superset Entropy: order requires exporting
+and RSVP's φ-driven relaxation all reflect the Law of Superset Entropy: order requires exporting
 incompleteness or internalizing it. Matthew 26:29's deferred wine-drinking signals a null state,
 fulfilled only in a greater context, mirroring the cosmos as a plenum of null signals, coherent yet
 incomplete.
@@ -181,10 +181,10 @@ incomplete.
 Appendix A: CMB Dipole Constraints in RSVP (Entropic Red-
 shift Form)
 A.1 Fields, Normalization, and ΛCDM Dictionary
-We model the plenum with scalar capacity ϕ(x, η), vector flow u(x, η), and matter density ρm(x, η).
+We model the plenum with scalar capacity φ(x, η), vector flow u(x, η), and matter density ρm(x, η).
 The entropic redshift potential is defined as:
-Υ ≡δϕ −β(η)φm ,
-φm(k, η) = 4πGa2(η)¯ρm(η)
+Υ ≡δφ −β(η)ϕm ,
+ϕm(k, η) = 4πGa2(η)¯ρm(η)
 k2
 Tm(k, η)δm(k, η).
 We normalize Υ so that the instantaneous Sachs-Wolfe (SW) contribution at last scattering is:
@@ -195,11 +195,11 @@ SW
 = 1
 3Υ∗.
 To align with ΛCDM, we adopt:
-Υ = δϕ −αmδρm,
+Υ = δφ −αmδρm,
 αm = 4πGa2(η)¯ρm(η)
 k2
 Tm(k, η),
-αϕ = 1.
+αφ = 1.
 A.2 Large-Angle Anisotropy Decomposition
 For line-of-sight ˆn:
 ∆T
@@ -210,7 +210,9 @@ c
 kinematic dipole εkin∼10−3
 + 1
 3Υ∗(ˆn)
-| {z }
+|
+{z
+}
 entropic SW
 + 2
 Z η0
@@ -248,11 +250,11 @@ R∗
 A.4 Linking to "Falling Outward" (Effective Potential Form)
 RSVP kinematics are governed by:
 aeff = −∇Φeff,
-Φeff ≡ϕ −γ(η)φm .
+Φeff ≡φ −γ(η)ϕm .
 The redshift imprint is Υ = N(η)Φeff, with N(η∗) set by the SW normalization. The dipole bound
 implies:
-|δϕ|∗≲εint
-αϕ
+|δφ|∗≲εint
+αφ
 = εint,
 |δρm|∗≲εint
 αm
@@ -268,22 +270,25 @@ u
 X
 i:ri<R
 wi
- zobs
+
+zobs
 i
 −zRSVP
 i
 (u)
-2 ,
+2
+,
 wi ∝
 1
 σS,i
 .
 Convergence to the CMB dipole means:
 ∠
- uRSVP
+
+uRSVP
 0
 (R), dCMB
-
+
 →0,
 ∥uRSVP
 0
@@ -293,14 +298,14 @@ Super-horizon adiabatic Υ modes correspond to a semantic-slicing gauge redefini
 The leading dipole cancels, with residuals tied to the quadrupole via ˙Υ at horizon entry. The
 small quadrupole (∼10−5) tightens the A.3 bound.
 A.7 Takeaway
-The entropic redshift potential Υ = Υ[ϕ, ρm] encapsulates scalar capacity (falling outward) and
+The entropic redshift potential Υ = Υ[φ, ρm] encapsulates scalar capacity (falling outward) and
 mass (inward pull). The residual dipole limit enforces:
 ∆Υ∗≡∥∇Υ∗∥R∗≲few × 10−5,
 supporting homogeneity beyond the observable, disfavoring bubble universes with varying pa-
 rameters.
 Appendix B: Falling Outward in the RSVP Framework
 Consider a spherical region in the RSVP plenum with a test particle at its boundary, governed by
-ϕ, u, and S.
+φ, u, and S.
 Case 1: Matter-Dominated Sphere.
 The effective energy is:
 E ∼−GMm
@@ -313,18 +318,18 @@ yielding:
 E ∼−r2,
 driving outward relaxation.
 Inflationary Extension.
-In the early plenum, high-entropy ϕ triggers a lamphron-lamphrodyne
+In the early plenum, high-entropy φ triggers a lamphron-lamphrodyne
 flash:
-E ∼−ρϕr2,
+E ∼−ρφr2,
 d2r
-dt2 ∝ρϕr,
+dt2 ∝ρφr,
 establishing causal uniformity. The CMB dipole constraint (∆Υ∗≲few×10−5) ensures coherence,
 ruling out parameter variations.
 6
 
 References
-Monica Anderson. After Phrenology: Neural Reuse and the Interactive Brain. MIT Press, 2006.
-Martin Ciupa. Personal communication: Poem on g¨odelian incompleteness, 2015.
+Michael L. Anderson. After Phrenology: Neural Reuse and the Interactive Brain. MIT Press, 2014.
+Martin Ciupa. Personal communication: Poem on gödelian incompleteness, 2015.
 Andy Clark. Whatever next? predictive brains, situated agents, and the future of cognitive sci-
 ence. Behavioral and Brain Sciences, 36(3):181-204, 2013.
 Martin Davis. Computability and Unsolvability. McGraw-Hill, 1958.
@@ -333,10 +338,10 @@ Proceedings of the Royal Netherlands Academy of Arts and Sciences, 19:1217-1225,
 Scott Dodelson. Modern Cosmology. Academic Press, 2003.
 Karl Fant. Computer Science Reconsidered: The Invocation Model of Process Expression. Mind-
 Share Media, 2005.
-Kurt G¨odel. ¨Uber formal unentscheidbare s¨atze der principia mathematica und verwandter sys-
-teme i. Monatshefte f¨ur Mathematik und Physik, 38:173-198, 1931.
+Kurt Gödel. Über formal unentscheidbare sätze der principia mathematica und verwandter sys-
+teme i. Monatshefte für Mathematik und Physik, 38:173-198, 1931.
 Jakob Hohwy. The Predictive Mind. Oxford University Press, 2013.
-Ernest Nagel and James Newman. G¨odel's Proof. New York University Press, 1958.
+Ernest Nagel and James Newman. Gödel's Proof. New York University Press, 1958.
 G. Nicolis and Ilya Prigogine. Self-Organization in Nonequilibrium Systems. Wiley, 1977.
 S. Perlmutter et al. Measurements of omega and lambda from 42 high-redshift supernovae. The
 Astrophysical Journal, 517(2):565-586, 1999.
