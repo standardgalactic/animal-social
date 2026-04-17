@@ -84,18 +84,6 @@ min-height:2em;
 opacity:.85;
 text-align:center;
 }
-
-/* footer */
-
-.footer{
-margin-top:10px;
-font-size:.85em;
-opacity:.7;
-}
-.footer a{
-color:#7cff7c;
-text-decoration:none;
-}
 </style>
 </head>
 
@@ -113,12 +101,6 @@ text-decoration:none;
 </div>
 
 <div id="subs" class="subs"></div>
-
-<div class="footer">
-<a href="https://standardgalactic.github.io/workspace/return_under_constraint.pdf" target="_blank">
-return_under_constraint.pdf
-</a>
-</div>
 
 </div>
 
@@ -285,7 +267,7 @@ smoothEnergy += (energy - smoothEnergy)*0.05
 const canvas = document.getElementById("viz")
 const c = canvas.getContext("2d")
 
-const size = 140
+const size = 260
 canvas.width = size
 canvas.height = size
 
@@ -296,7 +278,7 @@ x:Math.random()*size,
 y:Math.random()*size,
 vx:0,
 vy:0,
-baseR:18+Math.random()*18,
+baseR:14+Math.random()*14,
 r:0
 }))
 
@@ -307,10 +289,8 @@ let globalPhase = 0
 function flowField(x,y){
 
 const cx=size*0.5
-const cy=size*0.5
 
 const dx=(x-cx)/size
-const dy=(y-cy)/size
 
 const updraft = Math.exp(-dx*dx*8)*0.03
 const downdraft = -Math.exp(-Math.abs(dx)*3)*0.015
@@ -321,15 +301,7 @@ const swirl =
 Math.sin(y*0.04 + globalPhase)*0.02 +
 Math.sin(x*0.03 - globalPhase)*0.015
 
-const angle = Math.atan2(y-cy,x-cx)
-const radial = Math.sqrt(dx*dx+dy*dy)
-
-const vortex = 0.01*Math.sin(globalPhase)
-
-const vx2 = -Math.sin(angle)*vortex*(1-radial)
-const vy2 =  Math.cos(angle)*vortex*(1-radial)
-
-return { vx: swirl + vx2, vy: vy + vy2 }
+return { vx: swirl, vy: vy }
 }
 
 /* ===== DRAW ===== */
@@ -341,8 +313,6 @@ globalPhase += 0.0003
 
 c.clearRect(0,0,size,size)
 
-/* metaball field */
-
 const img = c.createImageData(size,size)
 
 for(let x=0;x<size;x++){
@@ -353,12 +323,20 @@ let sum=0
 for(const b of blobs){
 let dx=x-b.x
 let dy=y-b.y
-sum += b.r*b.r/(dx*dx+dy*dy+1)
+sum += b.r*b.r/(dx*dx+dy*dy+20)
 }
+
+/* radial falloff (removes square feel) */
+const cx=size/2
+const cy=size/2
+const dist=Math.hypot(x-cx,y-cy)/(size/2)
+const mask = Math.max(0,1 - dist*dist*0.8)
+
+sum *= mask
 
 let i=(y*size+x)*4
 
-if(sum>1){
+if(sum>0.9){
 let t=Math.min(sum/3,1)
 img.data[i]   = 180*t + 70*smoothEnergy
 img.data[i+1] = 255
